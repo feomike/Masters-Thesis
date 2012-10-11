@@ -1,0 +1,34 @@
+1. MELVYL Catalog
+
+AN  10714590
+DB  Melvyl Catalog
+DT  BOOK
+PA  Newton, David E.
+MT  Environmental justice : a reference handbook /
+PL  Santa Barbara, Calif. :
+PU  ABC-CLIO,
+DP  1996
+DE  xiv, 271 p. : ill. ; 24 cm.
+SE  Contemporary world issues
+VN  10714590
+IB  0874368480 (acid-free paper)
+NT  Includes bibliographical references and index.
+NT  English
+SU  Distributive justice
+SU  Environmental justice--Social aspects
+SU  Civil rights
+EL     Link to Resource   	    http://www.netlibrary.com/summary.asp?id=1283
+
+LO  UCD   Shields   JC578.N485 1996 (circ status)
+LO  All
+LO  HAST
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  CSL
+ZZ

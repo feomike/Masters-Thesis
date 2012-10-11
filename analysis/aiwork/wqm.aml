@@ -1,0 +1,29 @@
+/*wqm.aml
+/*mike byrne
+/*november 28, 2000
+&s dec = 9
+&call cleanup
+
+/*&s sql = "select * from master where pm_status = 'A' and delete = 0" /* and 
+/*dbmsinfo access [quote select * from master where pm_status = [quote A]] tmp1.join 
+
+connect access wqm19%dec%0
+  &do i = 0 &to 9
+    &type doing year 19%dec%%i%
+	/*&s sql = select * from chem1%dec%0%i% where PRIM_STA_C = 341005
+	&s sql = select * from chem19%dec%%i% where PRIM_STA_C like [quote 0103041*]
+	/*&type [quote %sql%]
+	/*dbmsinfo access [quote %sql%] tmp19%dec%%i%.join
+	dbmsinfo access [quote select * from chem19%dec%%i% where prim_sta_c = '08N/05E-03B01 M'] tmp19%dec%%i%.join
+  &end
+disconnect access
+
+&return
+
+/**************************************************
+/*****CleanUp
+&routine cleanup
+&do i = 0 &to 9
+  &s dv = [delete tmp19%dec%%i%.join -info]
+&end
+&return

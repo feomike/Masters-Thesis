@@ -1,0 +1,132 @@
+/*mike byrne
+/*sept 11, 2002
+/*makes a new source coverage from the picme database
+
+&args clipcov
+&if [null %clipcov%] &then
+  &return &error USAGE: picme <clip cover>
+&if ^ [exists %clipcov% -cov] &then 
+  &return &error coverage %clipcov% does not exist, exiting ...
+&call cleanup
+
+/*connect to the current picme database as an odbc database connection
+/*turn that into an info file
+connect access picme /*skypicme /*skypicme /*
+dbmsinfo access [quote select * from master where latitude <> 0] tmp1.join
+disconnect access
+precision double double
+&s clf = [close -all]
+
+&mess &off
+
+/*go through each record in the data file to grab a record number and lat/lon
+/*write out the lat/lon to a generate file
+&s ow1 = [open mbfile.txt ostat -write]
+cursor cur declare tmp1.join info rw
+cursor cur open
+&s cnt = 1
+&type creating the generate file ...
+&do &while %:cur.aml$next%
+    /*this is for things in dms which are active
+    &if %:cur.longitude% > 0 &then
+      &do
+        /*calculate longitude/latitude
+        &s latd = [substr %:cur.latitude% 1 2]
+        &s latm = [substr %:cur.latitude% 3 2]
+        &s lats = [substr %:cur.latitude% 5 5] /*[calc [round [calc 10 * [calc %:cur.latitude% - %latd%%latm%00]]] / 10]
+        &s latm = [calc %latm% / 60]
+        &s lats = [calc %lats% / 3600] 
+        &s latdd = [calc %latd% + [calc %latm% + %lats%]]
+        &s lond = [substr %:cur.longitude% 1 3]
+        &s lonm = [substr %:cur.longitude% 4 2]
+        &s lons = [substr %:cur.longitude% 6 5]
+        &s lonm = [calc %lonm% / 60]
+        &s lons = [calc %lons% / 3600] 
+        &s londd = [calc -1 * [abs [calc %lond% + %lonm% + %lons%]]]
+      &end
+    /*this next one is for things that have been gps'd and are active
+    &else /*if %:cur.longitude% <= 0 &then /*and %:cur.delete% = 0
+      &do
+        &s latdd = %:cur.latitude%
+        &s londd = [calc -1 * [abs %:cur.longitude%]]
+      &end
+      
+    &s wo1 = [write %ow1% %cnt%,%londd%,%latdd%] /*%:cur.con_pkey%
+  cursor cur next
+  &s cnt = [calc %cnt% + 1]
+&end
+&s wo1 = [write %ow1% END]
+cursor cur close
+cursor cur remove
+&s clf = [close %ow1%]
+
+/*use the output generate file to generate a coverage
+&type generating the new coverage ...
+generate %cov%
+  input mbfile.txt
+  points
+  quit
+
+/*join in the tempory attribute table to the coverage .pat
+&type joining in all attributes ...
+build %cov% point
+joinitem %cov%.pat tmp1.join %cov%.pat %cov%# %cov%-id link
+
+/*project it to albers
+project cover %cov% %cov%1 ll2alb-d.pf
+build %cov%1 point
+
+&data arc info
+  ARC
+    SEL [translate %cov%]1.PAT
+    ALTER LATITUDE,,,,8,,,,,,,,,,,,,,
+    ALTER LONGITUDE,,,,8,,,,,,,,,,,
+  Q STOP
+&end
+
+&s dd = d:\data\statewide\
+&type clipping to the %clipcov% ...
+clip %cov%1 %clipcov% %cov%2 point
+
+rename new2 source
+&type cleaning up ...
+&call cleanupend
+&mess &on
+
+&return
+
+/**************************************************
+/*****CleanUp
+&routine cleanup
+&do i &list mbfile.txt 
+  &s dv = [delete %i% -file]
+&end
+
+&do i &list 1 2
+  &s dv = [delete tmp%i%.join -info]
+&end
+
+&s cov = new
+&do i &list %cov% %cov%1 %cov%2 %cov%3 source
+  &if [exists %i% -cov] &then
+    kill %i% all
+&end
+&return
+
+/**************************************************
+/*****CleanUpEnd
+&routine cleanupEnd
+&do i &list mbfile.txt 
+  &s dv = [delete %i% -file]
+&end
+
+&do i &list 1 2
+  &s dv = [delete tmp%i%.join -info]
+&end
+
+&s cov = new
+&do i &list %cov% %cov%1 %cov%2 %cov%3 
+  &if [exists %i% -cov] &then
+    kill %i% all
+&end
+&return

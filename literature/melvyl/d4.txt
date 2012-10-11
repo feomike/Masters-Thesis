@@ -1,0 +1,59 @@
+1. Current Contents
+
+AN  000166067500013
+DB  Current Contents
+DT  V56 N3
+PA  Bullard, RD
+PA  Johnson, GS
+RE  Bullard, RD
+AA  Clark Atlanta Univ Atlanta, GA USA 30314 Bullard, RD rbullard@cau.edu
+    Environm Justice Resource Ctr REPRINT
+AA  Clark Atlanta Univ Atlanta, GA USA 30314 Environm Justice Resource Ctr
+    RESEARCH
+AT  Environmental justice: Grassroots activism and its impact on public policy
+    decision making
+JT  JOURNAL OF SOCIAL ISSUES
+TA  J SOC ISSUES
+DP  2000
+IS  FAL
+VO  V56
+NR  N3
+PG  555-578
+VN  386NB
+LA  English
+SU  SIPS Social Work/Social Policy
+TX  Online Access:  Link to Article Text http://linking.epnet.com/linksvc/link
+    ing.asp?pid=%3Asection=header%3Aformat=html%3Asection=host%3Ahost-name=EON
+    LINE%3Aip=128.48.10.64%3Adb=EONLINE&issn=0022-4537&date=2000&volume=56&iss
+    ue=3&spage=555 (EBSCO Online)
+TX  Online Access:  Link to Journal  http://www.ingenta.com/journals/browse/bp
+    l/josi (EBSCO Online)
+
+LO  CDL   MAGS No call number 1993- (ELECTRONIC JOURNAL)
+LT  Journal of social issues
+LO  UCD   Shields HN51 J6 v.1,1945-
+LT  Journal of social issues
+LO  CDL   Internet 1993-
+LT  Journal of social issues
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  NRLF
+LO  SRLF
+LO  Non-UC
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

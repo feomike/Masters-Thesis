@@ -1,0 +1,19 @@
+1. Current Contents
+
+TI   A refinement of inverse distance weighted interpolation
+AU   Watson, D F; Philip, G M
+AF   Univ. Sydney, Rep. Geol. and Geophys., Sydney, N.S.W., Australia (AUS)
+SO   Geo-Processing, vol.4, no.2, pp.315-327, Oct 1985
+IS   0165-2273
+PB   Elsevier, Amsterdam, Netherlands (NLD)
+LA   English
+FE   References 38; illus. incl. 1 table, sketch maps
+PY   1985
+PT   Serial; Analytic
+CP   Netherlands (NLD)
+DE   cartography; data processing; digital cartography; geophysical methods; inverse distance weighting; maps; mathematical methods; observations; Voronoi polytopes
+CL   14, Geologic maps
+CY   GeoRef, Copyright 2002, American Geological Institute.
+UD   1986
+AN   1986-014971
+F1   0165-2273,4,2,315-327,1985

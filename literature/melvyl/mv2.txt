@@ -1,0 +1,30 @@
+1. MELVYL Catalog
+
+AN  10740592
+DB  Melvyl Catalog
+DT  BOOK
+PA  Peet, Richard
+PA  Watts, Michael
+MT  Liberation ecologies : environment, development, social movements /
+PL  London ; New York :
+PU  Routledge,
+DP  1996
+DE  xii, 273 p. : ill., maps ; 24 cm.
+VN  10740592
+IB  0415133610
+IB  0415133629 (pbk.)
+NT  Includes bibliographical references and index.
+NT  English
+SU  Economic development--Environmental aspects--Case studies
+SU  Human ecology--Developing countries--Case studies
+
+LO  UCD   Shields   GF900.L52 1996 (circ status)
+LO  All
+LO  All UC
+LO  UCB
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+ZZ

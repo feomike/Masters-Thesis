@@ -1,0 +1,40 @@
+1. Current Contents
+
+AN  000086103000003
+DB  Current Contents
+DT  V9 N1
+PA  Sheppard, E
+PA  Leitner, H
+PA  McMaster, RB
+PA  Tian, HG
+AA  Univ Minnesota Minneapolis, MN USA 55455 McMaster, RB Dept Geog REPRINT
+AA  McMaster, RB mcmaster@atlas.socsci.umn.edu
+AA  Univ Minnesota Minneapolis, MN USA 55455 Dept Geog RESEARCH
+AT  GIS-based measures of environmental equity: Exploring their sensitivity
+    and significance
+JT  JOURNAL OF EXPOSURE ANALYSIS AND ENVIRONMENTAL EPIDEMIOLOGY
+TA  J EXPOS ANAL ENVIRON EPIDEM
+DP  1999
+IS  JAN-FEB
+VO  V9
+NR  N1
+PG  18-28
+VN  297VH
+LA  English
+SU  ENVG Environment/Ecology
+
+LO  UCD   HealthSci W1 JO504 v.3, 1993-
+LT  Journal of exposure analysis and environmental epidemiology.
+LO  All
+LO  LLNL
+LO  All UC
+LO  UCB
+LO  UCI
+LO  Non-UC
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+ZZ

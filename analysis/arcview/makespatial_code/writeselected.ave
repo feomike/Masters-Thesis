@@ -1,0 +1,46 @@
+'av.WriteSelected
+'mike byrne
+'january 20, 2002
+
+'this script creates a text file listing the frds-id number
+'for every selected PICME location
+'the text file can then be read into a vb script
+'which will create a unique wqm database for those selected points
+
+
+theView = av.GetActiveDoc
+theThemeList = theView.GetActiveThemes
+
+if (theThemeList.Count <> 1) then
+  msgbox.error("You need to have only one active theme","SWAP")
+  return nil
+end
+
+theTheme = theThemeList.Get(0)
+theFTab = theTheme.GetFTab
+theField = theFTab.FindField("Con_pkey")
+theBit = theFTab.GetSelection
+
+if (theField = Nil) then
+  msgbox.error("Field Con_pkey does not exist, exiting","SWAP")
+  return nil
+end
+
+theFN = FileDialog.Put("D:\data\swap\wqm\".AsFileName,"*.txt","Show Existing Text Files")
+
+if (theFN = Nil) then
+  msgbox.Error("None Selected, exiting ...","SWAP")
+  return Nil
+end
+'theFN = "D:\data\swap\wqm\mbnew.txt".AsFileName
+theFile = LineFile.Make(theFN,#FILE_PERM_WRITE)
+
+for each r in theBit
+  theVal = theFTab.ReturnValue(theField,r)
+  theFile.WriteElt(theVal.AsString)
+end
+
+theFile.Close
+
+msgbox.info("Finished writing file to " + theFN.AsString ,"SWAP")
+

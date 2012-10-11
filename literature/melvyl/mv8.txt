@@ -1,0 +1,47 @@
+1. Current Contents
+
+AN  Z1FAS3
+DB  Current Contents
+DT  V16 N4
+PA  CUTTER SL
+PA  HOLM D
+PA  CLARK L
+RE  CUTTER SL
+AA  UNIV S CAROLINA,DEPT GEOG COLUMBIA, SC USA 29208 Reprint
+AA  AGCY TOX SUBST & DIS REGISTRY ATLANTA, GA USA 30333
+AT  THE ROLE OF GEOGRAPHIC SCALE IN MONITORING ENVIRONMENTAL JUSTICE
+JT  RISK ANALYSIS
+TA  RISK ANAL
+DP  1996
+IS  AUG
+VO  V16
+NR  N4
+PG  517-526
+VN  VJ566
+LA  English
+SU  SALS Sociology/Anthropology
+
+LO  UCD Internet Electronic access v.19,1999-
+LT  Risk analysis : an official publication of the Society for Risk Analysis
+LO  UCD   Shields T174.5 R55 V.1, 1981-
+LT  Risk analysis : an official publication of the Society for Risk Analysis
+LO  CDL   Internet v.19(1999).
+LT  Risk analysis : an official publication of the Society for Risk Analysis
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  Non-UC
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+ZZ

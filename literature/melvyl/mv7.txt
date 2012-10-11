@@ -1,0 +1,62 @@
+1. Current Contents
+
+AN  A1998ZL15600006
+DB  Current Contents
+DT  V32 N9
+PA  Cooney, CM
+AT  GIS software aids environmental justice, emergency planning
+JT  ENVIRONMENTAL SCIENCE & TECHNOLOGY
+TA  ENVIRON SCI TECHNOL
+DP  1998
+IS  MAY 1
+VO  V32
+NR  N9
+PG  A211-A212
+VN  ZL156
+LA  English
+SU  ENVG Environment/Ecology
+SU  ENCE Environmental/Civil-ENGI
+SU  EEEE Environmental Engineering/Energy
+TX  Online Access:  Link to Journal  http://pubs.acs.org/journals/esthag/index
+    .html (American Chemical Society)
+
+LO  UCD Internet Electronic access v.30,1996-
+LT  Environmental science & technology
+LO  UCD   HealthSci W1 EN972 V.1, NO.2-6, 8-12, 1967; V.2, NO.1, 5, 7-8, 12, 
+          1968; V.4-10, 1970-76
+LT  Environmental science & technology
+LO  UCD   Law Lib TD180 .E5 For holdings consult library
+LT  Environmental science & technology
+LO  UCD   PhySciEng TD180 A1 E5 v.29,Jan.1995-
+LT  Environmental science & technology
+LO  UCD   PhySciEng TD180 A1 E5 v.12-28, Jan.1978-Dec.1994.
+LT  ES&T, environmental science & technology.
+LO  UCD   PhySciEng TD180 A1 E5 V.1-11, JAN.1967-DEC.1977
+LT  Environmental science and technology
+LO  CDL   Internet v.29(1995)-
+LT  Environmental science & technology
+LO  All
+LO  LBL
+LO  LLNL
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  NRLF
+LO  SRLF
+LO  Non-UC
+LO  CSL
+LO  CSU
+LO  GETTY
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

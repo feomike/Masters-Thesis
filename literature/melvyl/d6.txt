@@ -1,0 +1,45 @@
+1. Current Contents
+
+AN  Z1@-8J
+DB  Current Contents
+DT  V28 N3
+PA  TESH SN
+PA  WILLIAMS BA
+RE  TESH SN
+AA  UNIV MICHIGAN,SCH PUBL HLTH ANN ARBOR, MI USA 48109 Reprint
+AA  UNIV ILLINOIS,INST COMMUN RES URBANA, IL USA 61801
+AT  IDENTITY POLITICS, DISINTERESTED POLITICS, AND ENVIRONMENTAL JUSTICE
+JT  POLITY
+TA  POLITY
+DP  1996
+IS  SPR
+VO  V28
+NR  N3
+PG  285-305
+VN  UK246
+LA  English
+SU  POLS Political Science/Public Administration
+
+LO  CDL   MAGS No call number 1997- (1997- )
+LT  Polity.
+LO  UCD   Shields JA3 P65 v.1,1968-
+LT  Polity.
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  NRLF
+LO  Non-UC
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Central Valley
+LO  Northern California
+ZZ

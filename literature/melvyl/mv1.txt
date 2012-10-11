@@ -1,0 +1,77 @@
+1. MELVYL Catalog
+
+AN  12273158
+DB  Melvyl Catalog
+DT  BOOK
+CA  United States.
+CA  Science Applications International Corporation
+MT  EPA guidance for consideration of environmental justice in Clean Air Act
+    section 309 reviews [microform].
+PL  Washington, D.C. (401 M St., S.W., Washington 20460) :
+PU  U.S. Environmental Protection Agency, Office of Federal Activities,
+DP  1999
+DE  v, 31 p.
+GD  EP 1.8:J 98/2
+GI  0431-K (MF)
+RN  EPA 315-B-99-001
+VN  12273158
+NT  Shipping list no.: 99-0880-M.
+NT  "July 1999."
+NT  "EPA 315-B-99-001"--Cover.
+NT  "Prepared with the technical assistance of Science Applications
+    International Corporation in partial fulfillment of EPA contract
+    68-WE-0026"--P. i.
+NT  Includes bibliographical references (p. 30-31).
+NT  Microfiche. [Washington, D.C.] : Supt. of Docs., U.S. G.P.O., [1999] 1
+    microfiche : negative.
+NT  English
+SU  Environmental justice--United States
+SU  Environmental impact analysis--Social aspects--United States
+
+LO  UCD   Shields   DOC EP 1.8:J 98/2 mf11 Microcopy (circ status)
+LO  All
+LO  HAST
+LO  All UC
+LO  UCI
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  CSL
+ZZ
+
+
+2. MELVYL Catalog
+
+AN  11699717
+DB  Melvyl Catalog
+DT  BOOK
+CA  United States.
+MT  Interim final guidance for incorporating environmental justice concerns in
+    EPA's NEPA compliance analyses [microform]
+PL  [Washington, D.C.] :
+PU  U.S. Environmental Protection Agency, Federal Activities,
+DP  1997
+DE  iv, 57 p. ; 28 cm.
+GD  EP 1.8:J 98/INT.FINAL
+GI  0431-K (MF)
+VN  11699717
+NT  Cover title.
+NT  "September 1997."
+NT  Shipping list no.: 98-0798-M.
+NT  Includes bibliographical references (p. 56-57)
+NT  Microfiche. [Washington, D.C.] : Supt. of Docs., U.S. G.P.O., 1998 1
+    microfiche : negative.
+NT  English
+SU  United States.--Environmental Protection Agency
+SU  Environmental justice--United States
+
+LO  UCD   Shields   DOC EP 1.8:J 98/INT.FINAL mf11 Microcopy (circ status)
+LO  All
+LO  All UC
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  CSL
+ZZ

@@ -1,0 +1,47 @@
+1. Current Contents
+
+AN  Z0#1JU
+DB  Current Contents
+DT  V40 N1
+PA  CAPEK SM
+RE  CAPEK SM
+AA  HENDRIX COLL,DEPT SOCIOL CONWAY, AR USA 72032 Reprint
+AT  THE ENVIRONMENTAL JUSTICE FRAME - A CONCEPTUAL DISCUSSION AND AN
+    APPLICATION
+JT  SOCIAL PROBLEMS
+TA  SOC PROBL
+DP  1993
+IS  FEB
+VO  V40
+NR  N1
+PG  5-24
+VN  KQ729
+LA  English
+SU  SALS Sociology/Anthropology
+
+LO  CDL   MAGS No call number Aug. 1994-
+LT  Social problems.
+LO  UCD   Shields HN51 S65 v.1,June 1953-
+LT  Social problems.
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  NRLF
+LO  SRLF
+LO  Non-UC
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

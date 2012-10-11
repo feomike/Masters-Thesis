@@ -1,0 +1,168 @@
+TI: Title
+    Implementing the executive order of environmental justice at the
+    US Department of Energy
+AU: Author
+    Shields, G; Liebow, E; Lach, D; Holmes, R; Pearson, M
+AV: Availability
+    Order this product from NTIS by: phone at 1-800-553-NTIS (U.S.
+    customers); (703)605-6000 (other countries); fax at (703)321-8547;
+    and email at orders@ntis.fedworld.gov. NTIS is located at 5285
+    Port Royal Road, Springfield, VA, 22161, USA. NTIS Prices: PC A03
+    /MF A01
+SO: Source
+    Performer: Battelle Pacific Northwest Labs., Richland, WA.
+    Sponsor: Department of Energy, Washington, DC. Jun 1995. 11p.
+    Report: PNL-SA-26115, CONF-9506115-11
+RP: Report Number
+    PNLSA26115; CONF950611511; DE95015804
+NT: Notes
+    National Association of Environmental Professionals annual
+    conference and exposition: environmental challenges - the next
+    twenty years (20th), Washington, DC (United States), 10-13 Jun
+    1995. Sponsored by Department of Energy, Washington, DC.
+NU: Other Numbers
+    Contract AC06-76RL01830
+AB: Abstract
+    Environmental justice has grown out of a grassroots movement aimed
+    at forging links between environmental decision-making, civil
+    rights, and social justice. Public interest in environmental
+    justice translates into the application of community organizing,
+    coalition-building, and legal strategies developed in the civil
+    rights movement to address a disproportionate burden of risk and
+    exposure to pollution borne by low-income and minority
+    communities. Currently, public interest activities in the US are
+    most concerned with siting polluting facilities in low-income and
+    minority communities, with the slow pace of contamination clean-up
+    in these communities, and with the way in which environmental
+    planning decisions are made. The federal response to these
+    activities has included several pieces of proposed Congressional
+    legislation (none of which have been enacted to date), and an
+    Executive Order issued in February 1994 (Executive Order 12898,
+    Federal Actions to Address Environmental Justice in minority
+    Populations and Low Income Populations), directing each agency of
+    the executive branch to determine whether administrative changes
+    are needed to promote environmental justice goals. This paper
+    reports on efforts undertaken to date by the US Department of
+    Energy (DOE) to implement the Executive order. While DOE faces
+    relatively few decisions about siting new facilities outside its
+    current installations, in recent years the Department has begun a
+    massive environmental restoration and waste management challenge.
+    In addition the Department is responsible for carrying out the
+    nation's energy policy, which allocates economic and environmental
+    benefits and burdens.
+LA: Language
+    English
+PY: Publication Year
+    1995
+PD: Publication Date
+    19950600
+CO: Country of Origin
+    United States
+DE: Descriptors
+    Nuclear Facilities; US DOE; Minority Groups; Public Anxiety;
+    Public Health; Public Policy; Public Relations; Rural Populations;
+    Sociology; Meetings
+ID: Identifiers
+    EDB/552000; EDB/290200
+CL: Classification
+    57U Medicine & Biology: Public Health & Industrial Medicine; 97B
+    Energy: Energy Use, Supply, & Demand; 97G Energy: Policies,
+    Regulations & Studies
+UD: Update
+    199604
+SF: Subfile
+    NTIS
+AN: Accession Number
+    DE95015804
+
+Record 2 of 3
+
+TI: Title
+    EPA'S Environmental Justice Strategy: Executive Order 12898
+AV: Availability
+    Product reproduced from digital image. Order this product from
+    NTIS by: phone at 1-800-553-NTIS (U.S. customers); (703)605-6000
+    (other countries); fax at (703)321-8547; and email at
+    orders@ntis.fedworld.gov. NTIS is located at 5285 Port Royal Road,
+    Springfield, VA, 22161, USA. NTIS Prices: PC A03/MF A01
+SO: Source
+    Performer: Environmental Protection Agency, Washington, DC. 3 Apr
+    1995. 31p. Report: EPA/200-R-95-002
+RP: Report Number
+    EPA200R95002; ADA2971919
+AB: Abstract
+    No abstract available.
+LA: Language
+    English
+PY: Publication Year
+    1995
+PD: Publication Date
+    19950403
+CO: Country of Origin
+    United States
+DE: Descriptors
+    Policies; Environmental protection; Communities; Natural
+    resources; Minorities; Environmental management; Pollution
+    abatement; Public health; Public opinion; Federal law; American
+    indians; Local government; Managment planning and control
+ID: Identifiers
+    Environmental protection agency
+CL: Classification
+    92 Behavior & Society; 68G Environmental Pollution & Control:
+    Environmental Health & Safety
+UD: Update
+    199602
+SF: Subfile
+    NTIS
+AN: Accession Number
+    ADA2971919
+
+Record 3 of 3
+
+TI: Title
+    Environmental Justice Initiatives 1993
+AV: Availability
+    Product reproduced from digital image. Order this product from
+    NTIS by: phone at 1-800-553-NTIS (U.S. customers); (703)605-6000
+    (other countries); fax at (703)321-8547; and email at
+    orders@ntis.fedworld.gov. NTIS is located at 5285 Port Royal Road,
+    Springfield, VA, 22161, USA. NTIS Prices: PC A03/MF A01
+SO: Source
+    Performer: Environmental Protection Agency, Washington, DC. Office
+    of Administration and Resources Management. Feb 1994. 24p. Report:
+    EPA/200/R-93/001
+RP: Report Number
+    EPA200R93001; PB95182416
+AB: Abstract
+    The report describes EPA's efforts and initiatives to provide
+    environmental protection for all Americans regardless of race,
+    ethnic background, or income status.
+LA: Language
+    English
+PY: Publication Year
+    1994
+PD: Publication Date
+    19940200
+CO: Country of Origin
+    United States
+DE: Descriptors
+    Risk assessment; Public health; Environmental pollution; Pollution
+    control; Environmental policy; Policy making; Ethnic factors;
+    Government policies; US EPA; Environmental protection; Pollution
+    abatement; Waste management; Race; Minority groups; Communities;
+    Environmental issues; Decision making; Environmental quality;
+    Pollution regulations
+ID: Identifiers
+    Environmental justice
+CL: Classification
+    68 Environmental Pollution & Control; 92C Behavior & Society:
+    Social Concerns; 70F Administration & Management: Public
+    Administration & Government; 43F Problem-Solving Information For
+    State & Local Governments: Environment; 91A Urban & Regional
+    Technology & Development: Environmental Management & Planning
+UD: Update
+    199511
+SF: Subfile
+    NTIS
+AN: Accession Number
+    PB95182416

@@ -1,0 +1,51 @@
+1. Magazine & Journal Articles
+
+AN  77465342
+DB  Mags
+DT  ARTICLE
+PA  Hill, Barry E.
+PA  Targ, Nicholas
+AT  The link between protecting natural resources and the issue of
+    environmental justice.
+JT  Boston College Environmental Affairs Law Review
+VO  28
+NR  1
+IS  Fall
+DP  2000
+PG  1-37
+SB  Legal Resources Index
+SU  Resource Conservation and Recovery Act of 1976
+SU  National Environmental Policy Act of 1969
+SU  Clean Water Act of 1977--33 U.S.C. 1344
+SU  Environmental justice--Protection
+SU  Environmental protection--Laws, regulations, etc.
+AB  The integration of the EPA decision-making process , particularly permits
+    under the Resource Conservation and Recovery Act with environmental
+    justice concerns is discussed. Various other administrative agencies'
+    integration of other environmental protection laws with environmental
+    justice concerns is examined through case study analysis.
+
+LO  UCD   Law Lib K2 .O76 v.7 (1978)--
+LT  Boston College environmental affairs law review.
+LO  UCD   Shields HM206 A1 E57 v.7 1978- (lacks v.20, v.17)
+LT  Boston College environmental affairs law review.
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  SRLF
+LO  Non-UC
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

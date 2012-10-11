@@ -1,0 +1,31 @@
+2. MELVYL Catalog
+
+AN  12267738
+DB  Melvyl Catalog
+DT  BOOK
+PA  Rawls, John,
+MT  A theory of justice /
+ED  Rev. ed.
+PL  Cambridge, Mass. :
+PU  Belknap Press of Harvard Univeristy Press,
+DP  1999
+DE  xxii, 538 p. : ill. ; 25 cm.
+VN  12267738
+IB  0674000773 (cloth : alk. paper)
+IB  0674000781 (paper : alk. paper)
+NT  Includes bibliographical references and index.
+NT  English
+SU  Cooke, Philip St. George,--1809-1895
+
+LO  UCD   Law Lib   JC578 .R38 1999
+LO  UCD   Shields   JC578.R38 1999 (circ status)
+LO  All
+LO  HAST
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCSB
+LO  UCSC
+LO  UCSD
+ZZ

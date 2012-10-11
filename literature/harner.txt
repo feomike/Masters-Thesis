@@ -1,0 +1,63 @@
+4. Current Contents
+
+AN  000177288400002
+DB  Current Contents
+DT  V54 N3
+PA  Harner, J
+PA  Warner, K
+PA  Pierce, J
+PA  Huber, T
+RE  Harner, J
+AA  Univ Colorado Colorado Springs, CO USA 80918 Harner, J jharner@uccs.edu
+    Dept Geog & Environm Studies REPRINT
+AA  Warner, K kwarner@uccs.edu
+AA  Pierce, J jpierce@uccs.edu
+AA  Huber, T thuber@uccs.edu
+AA  Univ Colorado Colorado Springs, CO USA 80918 Dept Geog & Environm Studies
+    RESEARCH
+AA  Univ Colorado Colorado Springs, CO USA 80918 Dept Sociol RESEARCH
+AA  Univ Colorado Colorado Springs, CO USA 80918 Dept Polit Sci RESEARCH
+AT  Urban environmental justice indices
+JT  PROFESSIONAL GEOGRAPHER
+TA  PROF GEOGR
+DP  2002
+IS  AUG
+VO  V54
+NR  N3
+PG  318-331
+VN  581JK
+LA  English
+SU  GEOS Environmental Studies/Geography/Development
+TX  Online Access:  Link to Article Text http://linking.epnet.com/linksvc/link
+    ing.asp?pid=%3Asection=header%3Aformat=html%3Asection=host%3Ahost-name=EON
+    LINE%3Aip=128.48.10.64%3Adb=EONLINE&issn=0033-0124&date=2002&volume=54&iss
+    ue=3&spage=318 (EBSCO Online)
+TX  Online Access:  Link to Journal  http://www.ingenta.com/journals/browse/bp
+    l/prog (EBSCO Online)
+
+LO  UCD   Shields G3 P7 n.s.v.1-14, 1949-62; v.15,no.1-5, 1963; v.16, 1964-
+LT  The Professional geographer : the journal of the Association of American 
+    Geographers
+LO  CDL   Internet v.49(1997)-
+LT  The Professional geographer : the journal of the Association of American 
+    Geographers
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  NRLF
+LO  SRLF
+LO  Non-UC
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

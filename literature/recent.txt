@@ -1,0 +1,680 @@
+1. Current Contents
+
+AN  Z1FO&E
+DB  Current Contents
+DT  V17 N5
+PA  CUTTER SL
+PA  SOLECKI WD
+RE  CUTTER SL
+AA  UNIV S CAROLINA,DEPT GEOG COLUMBIA, SC USA 29208 Reprint
+AA  FLORIDA STATE UNIV,DEPT GEOG TALLAHASSEE, FL USA 32306
+AT  SETTING ENVIRONMENTAL JUSTICE IN SPACE AND PLACE - ACUTE AND CHRONIC
+    AIRBORNE TOXIC RELEASES IN THE SOUTHEASTERN UNITED STATES
+JT  URBAN GEOGRAPHY
+TA  URBAN GEOGR
+DP  1996
+IS  JUL 1
+VO  V17
+NR  N5
+PG  380-399
+VN  VK465
+LA  English
+SU  GEOS Environmental Studies/Geography/Development
+
+LO  UCD   Shields HT101 U71 v.1,Jan./Mar.1980-
+LT  Urban geography.
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSD
+LO  Non-UC
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Central Valley
+LO  Northern California
+ZZ
+
+
+2. Current Contents
+
+AN  Z1FAS3
+DB  Current Contents
+DT  V16 N4
+PA  CUTTER SL
+PA  HOLM D
+PA  CLARK L
+RE  CUTTER SL
+AA  UNIV S CAROLINA,DEPT GEOG COLUMBIA, SC USA 29208 Reprint
+AA  AGCY TOX SUBST & DIS REGISTRY ATLANTA, GA USA 30333
+AT  THE ROLE OF GEOGRAPHIC SCALE IN MONITORING ENVIRONMENTAL JUSTICE
+JT  RISK ANALYSIS
+TA  RISK ANAL
+DP  1996
+IS  AUG
+VO  V16
+NR  N4
+PG  517-526
+VN  VJ566
+LA  English
+SU  SALS Sociology/Anthropology
+
+LO  UCD Internet Electronic access v.19,1999-
+LT  Risk analysis : an official publication of the Society for Risk Analysis
+LO  UCD   Shields T174.5 R55 V.1, 1981-
+LT  Risk analysis : an official publication of the Society for Risk Analysis
+LO  CDL   Internet v.19(1999)-
+LT  Risk analysis : an official publication of the Society for Risk Analysis
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  Non-UC
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+ZZ
+
+3. Current Contents
+
+AN  000172820400002
+DB  Current Contents
+DT  V29 N1
+PA  Bowen, W
+RE  Bowen, W
+AA  Cleveland State Univ Cleveland, OH USA 44115 Bowen, W Maxine Goodman Levin
+    Coll Urban Affairs REPRINT
+AA  Cleveland State Univ Cleveland, OH USA 44115 Maxine Goodman Levin Coll
+    Urban Affairs RESEARCH
+AT  An analytical review of environmental justice research: What do we really
+    know?
+JT  ENVIRONMENTAL MANAGEMENT
+TA  ENVIRON MANAGE
+DP  2002
+IS  JAN
+VO  V29
+NR  N1
+PG  3-15
+VN  503UU
+LA  English
+SU  ENVG Environment/Ecology
+TX  Online Access:  Link to Article Text http://link.springer-ny.com/link/serv
+    ice/journals/00267/bibs/2029001/20290003.htm (Springer-Verlag (New York))
+TX  Online Access:  Link to Article Text http://link.springer-ny.com/link/serv
+    ice/journals/00267/papers/2029001/20290003.pdf (Springer-Verlag (New
+    York))
+TX  Online Access:  Link to Journal  http://link.springer-ny.com/link/service/
+    journals/00267/index.htm (Springer-Verlag (New York))
+
+LO  UCD Internet Electronic access v.20(1996)-
+LT  Environmental management
+LO  UCD   PhySciEng TD169 E6 v.5,1981-
+LT  Environmental management
+LO  NRLF TD169 E6 v.1-4,1976-1980.
+LT  Environmental management
+LO  CDL   Internet v.20(1996)-
+LT  Environmental management
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  NRLF
+LO  Non-UC
+LO  CAS
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+ZZ
+
+
+4. Current Contents
+
+AN  Z1$XMC
+DB  Current Contents
+DT  V85 N4
+PA  BOWEN WM
+PA  SALLING MJ
+PA  HAYNES KE
+PA  CYRAN EJ
+RE  BOWEN WM
+AA  CLEVELAND STATE UNIV,LEVIN COLL URBAN AFFAIRS CLEVELAND, OH USA 44115
+    Reprint
+AA  GEORGE MASON UNIV,INST PUBL POLICY FAIRFAX, VA USA 22030
+AT  TOWARD ENVIRONMENTAL JUSTICE - SPATIAL EQUITY IN OHIO AND CLEVELAND
+JT  ANNALS OF THE ASSOCIATION OF AMERICAN GEOGRAPHERS
+TA  ANN ASSN AMER GEOGR
+DP  1995
+IS  DEC
+VO  V85
+NR  N4
+PG  641-663
+VN  TL334
+LA  English
+SU  GEOS Environmental Studies/Geography/Development
+TX  Online Access:  Link to Journal  http://uclibs.org/PID/16598 (JSTOR)
+
+LO  CDL   MAGS No call number Mar. 1997-
+LT  Annals of the Association of American Geographers
+LO  CDL   MAGS No call number Mar 1997-
+LT  Annals of the Association of American Geographers.
+LO  UCD Internet Electronic access v.1(1911)-
+LT  Annals of the Association of American Geographers
+LO  UCD   Shields G3 A7 v.1,1911-
+LT  Annals of the Association of American Geographers
+LO  CDL   Internet v.1(1911)-
+LT  Annals of the Association of American Geographers
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  SRLF
+LO  Non-UC
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ
+
+5. Current Contents
+
+AN  000175066600007
+DB  Current Contents
+DT  V110 SUPP2
+PA  Maantay, J
+RE  Maantay, J
+AA  CUNY Herbert H Lehman Coll Bronx, NY USA 10468 Maantay, J
+    maantay@lehman.cuny.edu Dept Geol & Geog, 250 Bedford Pk Blvd W REPRINT
+AA  CUNY Herbert H Lehman Coll Bronx, NY USA 10468 Dept Geol & Geog RESEARCH
+AT  Mapping environmental injustices: Pitfalls and potential of geographic
+    information systems in assessing environmental health and equity
+JT  ENVIRONMENTAL HEALTH PERSPECTIVES
+TA  ENVIRON HEALTH PERSPECT
+DP  2002
+IS  APR
+VO  V110
+NR  SUPP2
+PG  161-171
+VN  542WE
+LA  English
+SU  ENVG Environment/Ecology
+SU  PHML Pharmacology/Toxicology-LIFE
+
+LO  UCD   HealthSci W1 EN951 v.1, Apr.1972- (incomplete)
+LT  Environmental health perspectives : EHP.
+LO  UCD   Shields RA565 A1 E65 v.1, April 1972- (lacks v.107 no.7-12)
+LT  Environmental health perspectives : EHP.
+LO  All
+LO  LLNL
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  Non-UC
+LO  CRL
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ
+
+6. MELVYL Catalog
+
+AN  10714590
+DB  Melvyl Catalog
+DT  BOOK
+PA  Newton, David E.
+MT  Environmental justice : a reference handbook /
+PL  Santa Barbara, Calif. :
+PU  ABC-CLIO,
+DP  1996
+DE  xiv, 271 p. : ill. ; 24 cm.
+SE  Contemporary world issues
+VN  10714590
+IB  0874368480 (acid-free paper)
+NT  Includes bibliographical references and index.
+NT  English
+SU  Distributive justice
+SU  Environmental justice--Social aspects
+SU  Civil rights
+EL     Link to Resource   	    http://www.netlibrary.com/summary.asp?id=1283
+
+LO  UCD   Shields   JC578.N485 1996 (circ status)
+LO  All
+LO  HAST
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  CSL
+ZZ
+
+7. MELVYL Catalog
+
+AN  6855466
+DB  Melvyl Catalog
+DT  BOOK
+PA  Peuquet, Donna J.
+PA  Marble, Duane Francis,
+MT  Introductory readings in geographic information systems /
+PL  London ; New York :
+PU  Taylor & Francis,
+DP  1990
+DE  x, 371 p. : ill., maps ; 26 cm.
+VN  6855466
+IB  0850668565
+IB  0850668573 (pbk.)
+NT  Includes bibliographical references.
+NT  English
+SU  Geographic information systems
+
+LO  UCD   Shields   G70.2.I66 1990 (circ status)
+LO  All
+LO  All UC
+LO  UCB
+LO  UCLA
+LO  UCR
+LO  UCSB
+ZZ
+
+8. MELVYL Catalog
+
+AN  11732653
+DB  Melvyl Catalog
+DT  BOOK
+PA  Foreman, Christopher H.
+MT  The promise and peril of environmental justice /
+PL  Washington, D.C. :
+PU  Brookings Institution,
+DP  1998
+DE  x, 191 p. ; 23 cm.
+VN  11732653
+IB  0815728786 (cloth)
+NT  Includes bibliographical references (p. 149-181) and index.
+NT  Challenges -- Foundations -- Involvement -- Health -- Opportunity --
+    Prospects.
+NT  English
+SU  Environmental degradation--United States
+SU  Environmental policy--United States
+SU  Environmental justice--United States
+EL     Link to Resource   	    http://uclibs.org/PID/18100
+
+LO  UCD   Law Lib   GE150 .F67 1998
+LO  UCD   Shields   GE150.F67 1998 (circ status)
+LO  All
+LO  HAST
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  CSL
+ZZ
+
+9. MELVYL Catalog
+
+AN  8273981
+DB  Melvyl Catalog
+DT  BOOK
+PA  Miller, E. Willard (Eugene Willard),
+PA  Miller, Ruby M.
+MT  Water quality and availability : a reference handbook /
+PL  Santa Barbara, Calif. :
+PU  ABC-CLIO,
+DP  1992
+DE  xii, 430 p. : maps ; 24 cm.
+SE  Contemporary world issues
+VN  8273981
+IB  087436647X (acid-free paper)
+NT  Includes bibliographical references (p. 165-358) and index.
+NT  Filmography: p. 355-392.
+NT  English
+SU  Water quality--United States
+SU  Water-supply--United States
+
+LO  UCD   PhySciEng TD223.M53 1992 (circ status)
+LO  All
+LO  HAST
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  CSL
+ZZ
+
+10. MELVYL Catalog
+
+AN  888596
+DB  Melvyl Catalog
+DT  BOOK
+PA  Harrison, David,
+MT  Who pays for clean air : the cost and benefit distribution of Federal
+    automobile emission controls /
+PL  Cambridge, Mass. :
+PU  Ballinger Pub. Co.,
+DP  1975
+DE  xix, 167 p. : ill. ; 24 cm.
+VN  888596
+IB  0884104516
+NT  Includes index.
+NT  Bibliography: p. 161-163.
+NT  English
+SU  Automobiles--Pollution control devices--Costs
+SU  Air--Pollution--Economic aspects--United States--Mathematical models
+
+LO  UCD   Law Lib   HC110.A4.H37
+LO  UCD   Shields   HC110.A4 H37 (circ status)
+LO  All
+LO  LBL
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSD
+LO  CSL
+ZZ
+
+11. MELVYL Catalog
+
+AN  612704
+DB  Melvyl Catalog
+DT  BOOK
+PA  Smith, James Noel
+CA  Conference on Environmental Quality and Social Justice, Woodstock, Ill.,
+    1972
+CA  Conservation Foundation
+MT  Environmental quality and social justice in urban America; an exploration
+    of conflict and concord among those who seek environmental quality and
+    those who seek social justice.
+PL  Washington,
+PU  Conservation Foundation
+DP  1974
+DE  xii, 145 p. 26 cm.
+VN  612704
+NT  Includes bibliographical references.
+NT  English
+SU  Environmental policy--United States--Congresses
+SU  Social justice--Congresses
+SU  Conservation of natural resources--United States--Congresses
+
+LO  UCD   Law Lib   HC110.E5 C66 1972
+LO  UCD   Shields   HC110.E5 C661 1972 (circ status)
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+ZZ
+
+12. MELVYL Catalog
+
+AN  341464
+DB  Melvyl Catalog
+DT  BOOK
+PA  Berry, Brian Joe Lobley,
+CA  United States. Environmental Protection Agency. Office of Research and
+    Development
+MT  Land use, urban form and environmental quality
+PL  [Chicago]
+PU  University of Chicago, Dept. of Geography,
+DP  1974
+DE  xxiii, 440 p. illus. 23 cm.
+SE  University of Chicago. Dept. of Geography. Research paper no. 155.
+VN  341464
+NT  "Final report of project no. R-801419: 'Land use forms and the
+    environment,' Office of Research and Development, Environmental Protection
+    Agency."
+NT  Bibliography: p. 431-440.
+NT  English
+SU  Pollution--United States
+SU  Environmental policy--United States
+SU  Metropolitan areas--United States
+SU  Regional planning--United States
+SR  Research paper (University of Chicago. Dept. of Geography) ; no. 155.
+
+LO  UCD   Law Lib   HC110.P55 L35
+LO  UCD   Shields   H31.C55 no.155 (circ status)
+LO  All
+LO  HAST
+LO  All UC
+LO  UCI
+LO  UCR
+LO  UCSC
+LO  UCSD
+LO  NRLF
+LO  SRLF
+LO  CSL
+ZZ
+
+13. MELVYL Catalog
+
+AN  6434344
+DB  Melvyl Catalog
+DT  BOOK
+PA  Hammond, P. Brett
+PA  Coppock, Rob
+CA  National Research Council (U.S.). Steering Committee on Valuing Health
+    Risks, Costs, and Benefits for Environmental Decisions
+CA  National Research Council (U.S.). Board on Environmental Studies and
+    Toxicology
+CA  National Research Council (U.S.). Commission on Behavioral and Social
+    Sciences and Education
+CA  National Research Council (U.S.). Commission on Physical Sciences,
+    Mathematics, and Resources
+MT  Valuing health risks, costs, and benefits for environmental decision
+    making : report of a conference /
+PL  Washington, D.C. :
+PU  National Academy Press,
+DP  1990
+DE  xi, 231 p. : ill. ; 23 cm.
+VN  6434344
+IB  0309041953
+NT  "Board on Environmental Studies and Toxicology; Commission on Physical
+    Sciences, Mathematics, and Resources; Commission on Behavioral and Social
+    Sciences and Education, National Research Council."
+NT  Includes bibliographical references.
+NT  English
+SU  Health risk assessment
+SU  Environmental policy--United States
+SU  Cost effectiveness
+SU  Environmental health--United States
+
+LO  UCD   Shields   RA566.3.V35 1990 (circ status)
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSD
+LO  UCSF
+LO  NRLF
+ZZ
+
+14. MELVYL Catalog
+
+AN  7553035
+DB  Melvyl Catalog
+DT  BOOK
+PA  Goldman, Benjamin A.
+MT  The truth about where you live : an atlas for action on toxins and
+    mortality /
+ED  1st ed.
+PL  New York :
+PU  Times Books/Random House,
+DP  1991
+DE  xiv, 416 p. : ill., maps ; 24 cm.
+VN  7553035
+IB  0812918983 (pbk.) : $17.00 ($23.00 Can.)
+NT  Includes bibliographical references (p. [363]-399) and index.
+NT  English
+SU  Environmental health--United States
+SU  Diseases--United States--Statistics
+
+LO  UCD   HealthSci WA30 G55 1991 Reference (circ status)
+LO  UCD   Shields   RA566.3.G65 1991 (circ status)
+LO  All
+LO  All UC
+LO  UCB
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+ZZ
+
+15. MELVYL Catalog
+
+AN  2859465
+DB  Melvyl Catalog
+DT  BOOK
+PA  Gould, Jay M.
+PA  Marlin, Alice Tepper
+CA  Council on Economic Priorities
+MT  Quality of life in American neighborhoods : levels of affluence, toxic
+    waste, and cancer mortality in residential Zip code areas /
+PL  Boulder :
+PU  Westview Press,
+DP  1986
+DE  ix, 402 p. ; 29 cm.
+VN  2859465
+IB  0813371872 (alk. paper) : $46.95
+NT  "Published in cooperation with the Council on Economic Priorities."
+NT  English
+SU  Hazardous waste sites--Health aspects--United States--Statistics
+SU  Quality of life--United States--Statistics
+SU  Cancer--United States--Statistics
+
+LO  UCD   Shields   RA645.C3 G68 1986 (circ status)
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  CSL
+ZZ
+
+16. MELVYL Catalog
+
+AN  4455606
+DB  Melvyl Catalog
+DT  BOOK
+CA  United Church of Christ. Commission for Racial Justice
+MT  Toxic wastes and race in the United States : a national report on the
+    racial and socio-economic characteristics of communities with hazardous
+    waste sites /
+PL  New York, N.Y. :
+PU  Public Data Access : Inquiries to the Commission,
+DP  1987
+DE  xvi, 69 p. : maps ; 28 cm.
+VN  4455606
+IB  $15.00 (pbk.)
+NT  Bibliography: p. 28-30.
+NT  English
+SU  Hazardous wastes--Environmental aspects--United States
+SU  Hazardous waste sites--Environmental aspects--United States
+SU  Minorities--Health and hygiene--United States
+SU  Hazardous wastes--Moral and ethical aspects--United States
+
+LO  UCD   Law Lib   TD811.5 .T695 1987
+LO  All
+LO  All UC
+LO  UCB
+LO  UCSC
+LO  UCSD
+LO  SRLF
+LO  CSL
+ZZ
+
+17. MELVYL Catalog
+
+AN  8052210
+DB  Melvyl Catalog
+DT  BOOK
+PA  Bryant, Bunyan I.
+PA  Mohai, Paul
+MT  Race and the incidence of environmental hazards : a time for discourse /
+PL  Boulder :
+PU  Westview Press,
+DP  1992
+DE  vi, 251 p. ; 23 cm.
+VN  8052210
+IB  081338513X (alk. paper)
+NT  Includes bibliographical references (p. 220-251) and index.
+NT  English
+SU  Environmental health--United States
+SU  Minorities--United States--Health and hygiene
+
+LO  UCD   Shields   RA566.3.R33 1992 (circ status)
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  SRLF
+LO  CSL
+ZZ

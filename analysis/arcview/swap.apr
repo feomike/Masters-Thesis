@@ -1,0 +1,7577 @@
+/3.2
+(ODB.1
+	Dependencies:	"$AVEXT/spatial.avx\n"
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	32
+)
+
+(Project.2
+	Name:	"swap.apr"
+	CreationDate:	"Wednesday, January 09, 2002 11:12:36 AM"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	192
+	Doc:	299
+	Doc:	119
+	Doc:	443
+	Doc:	42
+	Doc:	362
+	Buttons:	592
+	Buttons:	593
+	Buttons:	594
+	Dependencies:	595
+	Scripts:	596
+	Prefs:	597
+	GUI:	609
+	WorkDir:	1469
+	WinX:	11
+	WinY:	4
+	WinW:	1005
+	WinH:	732
+	SerialNumber:	"825901121274"
+	SelColor:	1470
+	GUINames:	1471
+	GUINames:	1472
+	GUINames:	1473
+	GUINames:	1474
+	GUINames:	1475
+	GUINames:	1476
+	GUINames:	1477
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	5
+	Y:	5
+	W:	238
+	H:	317
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(Table.6
+	Name:	"Attributes of District-Federal"
+	CreationDate:	"Wednesday, January 09, 2002 11:14:41 AM"
+	GUIName:	"Table"
+	Win:	7
+	CSMgr:	8
+	DocExts:	285
+	VTab:	286
+)
+
+(DocWin.7
+	Owner:	6
+	X:	13
+	Y:	302
+	W:	538
+	H:	248
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"RespondTable"
+)
+
+(FTheme.10
+	Name:	"District-Federal"
+	Source:	11
+	Flags:	0x04
+	Legend:	28
+	Threshold:	41
+	View:	42
+	GSet:	283
+	LegEditScript:	"View.EditLegend"
+	TxPos:	284
+	Table:	6
+	SnapTolCursor:	1
+)
+
+(CovSrc.11
+	Name:	12
+	FClass:	14
+	FTab:	15
+)
+
+(SrcName.12
+	FileName:	13
+	Name:	"fedwda"
+	SubName:	"region.district"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.13
+	Path:	"d:/data/swap/gis-library/statewide/fedwda"
+)
+
+(FClass.14
+	Type:	11
+	Feature:	"region.district"
+	Instance:	"district"
+)
+
+(FTab.15
+	Name:	"fedwda.patdistrict"
+	BTab:	16
+	Fields:	26
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	21
+	Fields:	22
+	Fields:	23
+	Fields:	24
+	SelBits:	27
+	FSrc:	11
+)
+
+(INFO.16
+	Name:	"fedwda.patdistrict"
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	21
+	Fields:	22
+	Fields:	23
+	Fields:	24
+	FileName:	25
+)
+
+(Field.17
+	Name:	"Area"
+	Btab:	16
+	Alias:	"Area"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.18
+	Name:	"Perimeter"
+	Btab:	16
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.19
+	Name:	"District#"
+	Btab:	16
+	Alias:	"District#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.20
+	Name:	"District-id"
+	Btab:	16
+	Alias:	"District-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.21
+	Name:	"Wdname"
+	Btab:	16
+	Alias:	"Wdname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.22
+	Name:	"Idcon"
+	Btab:	16
+	Alias:	"Idcon"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.23
+	Name:	"Shadesym"
+	Btab:	16
+	Alias:	"Shadesym"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.24
+	Name:	"Pname"
+	Btab:	16
+	Alias:	"Pname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.25
+	Path:	"d:/data/swap/gis-library/statewide/info/fedwda.patdistrict"
+)
+
+(Field.26
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.27
+	NumBits:	160
+
+)
+
+(Legend.28
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	29
+	Class:	34
+	StdDevs:	1.00000000000000
+	NullSym:	35
+	NullValues:	39
+	StatValues:	40
+	Precision:	-3
+)
+
+(SymList.29
+	Child:	30
+)
+
+(BShSym.30
+	Color:	31
+	Outline:	1
+	OutlineColor:	32
+	OutlineWidth:	0.10000000000000
+	BgColor:	33
+)
+
+(TClr.31
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.32
+)
+
+(TClr.33
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.34
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.35
+	Color:	36
+	Outline:	1
+	OutlineColor:	37
+	OutlineWidth:	0.10000000000000
+	BgColor:	38
+)
+
+(TClr.36
+	Name:	"Transparent"
+)
+
+(TClr.37
+	Name:	"Transparent"
+)
+
+(TClr.38
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.39
+)
+
+(NameDict.40
+)
+
+(Thresh.41
+)
+
+(View.42
+	Name:	"Water Districts"
+	CreationDate:	"Wednesday, January 09, 2002 11:12:38 AM"
+	GUIName:	"View"
+	Win:	43
+	CSMgr:	44
+	DocExts:	46
+	DocExts:	47
+	DocExts:	48
+	Graphics:	51
+	Theme:	58
+	Theme:	124
+	Theme:	158
+	Theme:	10
+	Theme:	210
+	Theme:	241
+	Dpy:	52
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.43
+	Owner:	42
+	X:	20
+	Y:	20
+	W:	958
+	H:	567
+)
+
+(CSMgr.44
+	Client:	45
+)
+
+(CSClient.45
+	Client:	46
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.46
+	Doc:	42
+)
+
+(DocAct.47
+	Doc:	42
+)
+
+(SpAnEnv.48
+	CellEnum:	49
+	CellSize:	50
+	ExtEnum:	49
+	Extent:	50
+)
+
+(AVEnum.49
+	Name:	"ANALYSISENV_MAXOF"
+)
+
+(Nil.50
+)
+
+(GList.51
+	Dpy:	52
+	FormatNumb:	57
+)
+
+(MapDpy.52
+	Left:	-141679.41620966248000
+	Bottom:	-63091.96767305787900
+	Top:	36353.20239260068000
+	Right:	-77674.36520443791200
+	Scale:	53
+	FrameTop:	5.58333333333333
+	FrameRight:	8.26041666666667
+	PageDpy:	54
+	FitToPage:	1
+	MouseLoc:	56
+)
+
+(Numb.53
+	N:	0.00005614484172
+)
+
+(PageDpy.54
+	Top:	5.58333333333333
+	Right:	8.26041666666667
+	ReportUnits:	1
+	Units:	1
+	Scale:	55
+	ZoomRight:	8.26041666666667
+	ZoomTop:	5.58333333333333
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.55
+	N:	0.12105926860025
+)
+
+(PointD.56
+	x:	-691973.91018151329000
+	y:	464959.05579253950000
+)
+
+(Numb.57
+)
+
+(FTheme.58
+	Name:	"Wells-01-12-14.shp"
+	Source:	59
+	Flags:	0x06
+	Legend:	97
+	Threshold:	116
+	View:	42
+	GSet:	117
+	LegEditScript:	"View.EditLegend"
+	TxPos:	118
+	LabelField:	70
+	Table:	119
+	SnapTolCursor:	1
+)
+
+(ShpSrc.59
+	Name:	60
+	FTab:	62
+)
+
+(SrcName.60
+	FileName:	61
+	Name:	"wells-01-12-14.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.61
+	Path:	"h:/proj/swap/wells-01-12-14.shp"
+)
+
+(FTab.62
+	Name:	"wells-01-12-14.dbf"
+	BTab:	63
+	Fields:	95
+	Fields:	64
+	Fields:	65
+	Fields:	66
+	Fields:	67
+	Fields:	68
+	Fields:	69
+	Fields:	70
+	Fields:	71
+	Fields:	72
+	Fields:	73
+	Fields:	74
+	Fields:	75
+	Fields:	76
+	Fields:	77
+	Fields:	78
+	Fields:	79
+	Fields:	80
+	Fields:	81
+	Fields:	82
+	Fields:	83
+	Fields:	84
+	Fields:	85
+	Fields:	86
+	Fields:	87
+	Fields:	88
+	Fields:	89
+	Fields:	90
+	Fields:	91
+	Fields:	92
+	Fields:	93
+	SelBits:	96
+	FSrc:	59
+)
+
+(dBASE.63
+	Name:	"wells-01-12-14.dbf"
+	Fields:	64
+	Fields:	65
+	Fields:	66
+	Fields:	67
+	Fields:	68
+	Fields:	69
+	Fields:	70
+	Fields:	71
+	Fields:	72
+	Fields:	73
+	Fields:	74
+	Fields:	75
+	Fields:	76
+	Fields:	77
+	Fields:	78
+	Fields:	79
+	Fields:	80
+	Fields:	81
+	Fields:	82
+	Fields:	83
+	Fields:	84
+	Fields:	85
+	Fields:	86
+	Fields:	87
+	Fields:	88
+	Fields:	89
+	Fields:	90
+	Fields:	91
+	Fields:	92
+	Fields:	93
+	FileName:	94
+)
+
+(Field.64
+	Name:	"Con_pkey"
+	Btab:	63
+	Alias:	"Con_pkey"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.65
+	Name:	"District"
+	Btab:	63
+	Alias:	"District"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	37
+)
+
+(Field.66
+	Name:	"System"
+	Btab:	63
+	Alias:	"System"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	76
+)
+
+(Field.67
+	Name:	"System_nm"
+	Btab:	63
+	Alias:	"System_nm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	226
+)
+
+(Field.68
+	Name:	"Source"
+	Btab:	63
+	Alias:	"Source"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	39
+)
+
+(Field.69
+	Name:	"County"
+	Btab:	63
+	Alias:	"County"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	38
+)
+
+(Field.70
+	Name:	"Loc_name"
+	Btab:	63
+	Alias:	"Loc_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.71
+	Name:	"Loc_city"
+	Btab:	63
+	Alias:	"Loc_city"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	149
+)
+
+(Field.72
+	Name:	"Ps_code"
+	Btab:	63
+	Alias:	"Ps_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	95
+)
+
+(Field.73
+	Name:	"Source_key"
+	Btab:	63
+	Alias:	"Source_key"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	62
+)
+
+(Field.74
+	Name:	"Pm_status"
+	Btab:	63
+	Alias:	"Pm_status"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	54
+)
+
+(Field.75
+	Name:	"Reg_entity"
+	Btab:	63
+	Alias:	"Reg_entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	56
+)
+
+(Field.76
+	Name:	"Source_nm"
+	Btab:	63
+	Alias:	"Source_nm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.77
+	Name:	"Latitude"
+	Btab:	63
+	Alias:	"Latitude"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(Field.78
+	Name:	"Longitude"
+	Btab:	63
+	Alias:	"Longitude"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(Field.79
+	Name:	"Precision_"
+	Btab:	63
+	Alias:	"Precision_"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	54
+)
+
+(Field.80
+	Name:	"Ent_info"
+	Btab:	63
+	Alias:	"Ent_info"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	44
+)
+
+(Field.81
+	Name:	"Availabili"
+	Btab:	63
+	Alias:	"Availabili"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	46
+)
+
+(Field.82
+	Name:	"Srec_type"
+	Btab:	63
+	Alias:	"Srec_type"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	53
+)
+
+(Field.83
+	Name:	"Se_code"
+	Btab:	63
+	Alias:	"Se_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	48
+)
+
+(Field.84
+	Name:	"Water_type"
+	Btab:	63
+	Alias:	"Water_type"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	60
+)
+
+(Field.85
+	Name:	"Method"
+	Btab:	63
+	Alias:	"Method"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.86
+	Name:	"Well_no_db"
+	Btab:	63
+	Alias:	"Well_no_db"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	62
+)
+
+(Field.87
+	Name:	"Pws_class"
+	Btab:	63
+	Alias:	"Pws_class"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	55
+)
+
+(Field.88
+	Name:	"Gpsd"
+	Btab:	63
+	Alias:	"Gpsd"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	30
+)
+
+(Field.89
+	Name:	"Swapdone"
+	Btab:	63
+	Alias:	"Swapdone"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	56
+)
+
+(Field.90
+	Name:	"Porocity"
+	Btab:	63
+	Alias:	"Porocity"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	43
+)
+
+(Field.91
+	Name:	"Interval"
+	Btab:	63
+	Alias:	"Interval"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	40
+)
+
+(Field.92
+	Name:	"Pumping"
+	Btab:	63
+	Alias:	"Pumping"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	46
+)
+
+(Field.93
+	Name:	"Azimuth"
+	Btab:	63
+	Alias:	"Azimuth"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	42
+)
+
+(FN.94
+	Path:	"h:/proj/swap/wells-01-12-14.dbf"
+)
+
+(Field.95
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.96
+	NumBits:	19188
+	NumBitsSet:	37
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 84c24000 b9f81126 04408231 
+	Bits:	00307005 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000004 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00004000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+
+)
+
+(Legend.97
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	98
+	Class:	106
+	StdDevs:	1.00000000000000
+	NullSym:	107
+	NullValues:	114
+	StatValues:	115
+	Precision:	-3
+)
+
+(SymList.98
+	Child:	99
+)
+
+(BMkSym.99
+	Color:	100
+	BgColor:	101
+	Font:	102
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.100
+	Red:	0x12d5
+	Green:	0xa610
+	Blue:	0xdf0e
+)
+
+(TClr.101
+	Name:	"Transparent"
+)
+
+(NFont.102
+	Family:	103
+	Name:	104
+	Style:	105
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.103
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.104
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.105
+	S:	"Normal"
+)
+
+(LClass.106
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.107
+	Color:	108
+	BgColor:	109
+	Font:	110
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.108
+	Name:	"Transparent"
+)
+
+(TClr.109
+	Name:	"Transparent"
+)
+
+(NFont.110
+	Family:	111
+	Name:	112
+	Style:	113
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.111
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.112
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.113
+	S:	"Normal"
+)
+
+(NameDict.114
+)
+
+(NameDict.115
+)
+
+(Thresh.116
+)
+
+(GSet.117
+)
+
+(TxPosPt.118
+	HAlign:	4
+	VAlign:	3
+)
+
+(Table.119
+	Name:	"Attributes of Wells-01-12-14.shp"
+	CreationDate:	"Wednesday, January 09, 2002 04:02:08 PM"
+	GUIName:	"Table"
+	Win:	120
+	CSMgr:	121
+	DocExts:	123
+	VTab:	62
+)
+
+(DocWin.120
+	Owner:	119
+	X:	2
+	Y:	52
+	W:	776
+	H:	515
+)
+
+(CSMgr.121
+	Client:	122
+)
+
+(CSClient.122
+	Client:	58
+	ReqName:	"RespondTable"
+)
+
+(DocAct.123
+	Doc:	119
+)
+
+(FTheme.124
+	Name:	"District-SWPA"
+	Source:	125
+	Flags:	0x04
+	Legend:	142
+	Threshold:	155
+	View:	42
+	GSet:	156
+	LegEditScript:	"View.EditLegend"
+	TxPos:	157
+	SnapTolCursor:	1
+)
+
+(CovSrc.125
+	Name:	126
+	FClass:	128
+	FTab:	129
+)
+
+(SrcName.126
+	FileName:	127
+	Name:	"swpa"
+	SubName:	"region.district"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.127
+	Path:	"d:/data/swap/gis-library/statewide/swpa"
+)
+
+(FClass.128
+	Type:	11
+	Feature:	"region.district"
+	Instance:	"district"
+)
+
+(FTab.129
+	Name:	"swpa.patdistrict"
+	BTab:	130
+	Fields:	140
+	Fields:	131
+	Fields:	132
+	Fields:	133
+	Fields:	134
+	Fields:	135
+	Fields:	136
+	Fields:	137
+	Fields:	138
+	SelBits:	141
+	FSrc:	125
+)
+
+(INFO.130
+	Name:	"swpa.patdistrict"
+	Fields:	131
+	Fields:	132
+	Fields:	133
+	Fields:	134
+	Fields:	135
+	Fields:	136
+	Fields:	137
+	Fields:	138
+	FileName:	139
+)
+
+(Field.131
+	Name:	"Area"
+	Btab:	130
+	Alias:	"Area"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.132
+	Name:	"Perimeter"
+	Btab:	130
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.133
+	Name:	"District#"
+	Btab:	130
+	Alias:	"District#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.134
+	Name:	"District-id"
+	Btab:	130
+	Alias:	"District-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.135
+	Name:	"Wdname"
+	Btab:	130
+	Alias:	"Wdname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.136
+	Name:	"Idcon"
+	Btab:	130
+	Alias:	"Idcon"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.137
+	Name:	"Shadesym"
+	Btab:	130
+	Alias:	"Shadesym"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.138
+	Name:	"Pname"
+	Btab:	130
+	Alias:	"Pname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.139
+	Path:	"d:/data/swap/gis-library/statewide/info/swpa.patdistrict"
+)
+
+(Field.140
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.141
+	NumBits:	18
+
+)
+
+(Legend.142
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	143
+	Class:	148
+	StdDevs:	1.00000000000000
+	NullSym:	149
+	NullValues:	153
+	StatValues:	154
+	Precision:	-3
+)
+
+(SymList.143
+	Child:	144
+)
+
+(BShSym.144
+	Color:	145
+	Outline:	1
+	OutlineColor:	146
+	OutlineWidth:	0.10000000000000
+	BgColor:	147
+)
+
+(TClr.145
+	Red:	0x517c
+	Green:	0xc709
+	Blue:	0xc74c
+)
+
+(TClr.146
+)
+
+(TClr.147
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.148
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.149
+	Color:	150
+	Outline:	1
+	OutlineColor:	151
+	OutlineWidth:	0.10000000000000
+	BgColor:	152
+)
+
+(TClr.150
+	Name:	"Transparent"
+)
+
+(TClr.151
+	Name:	"Transparent"
+)
+
+(TClr.152
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.153
+)
+
+(NameDict.154
+)
+
+(Thresh.155
+)
+
+(GSet.156
+)
+
+(TxPosPly.157
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.158
+	Name:	"District-Private"
+	Source:	159
+	Flags:	0x06
+	Legend:	176
+	Threshold:	189
+	View:	42
+	GSet:	190
+	LegEditScript:	"View.EditLegend"
+	TxPos:	191
+	Table:	192
+	SnapTolCursor:	1
+)
+
+(CovSrc.159
+	Name:	160
+	FClass:	162
+	FTab:	163
+)
+
+(SrcName.160
+	FileName:	161
+	Name:	"privwda"
+	SubName:	"region.district"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.161
+	Path:	"d:/data/swap/gis-library/statewide/privwda"
+)
+
+(FClass.162
+	Type:	11
+	Feature:	"region.district"
+	Instance:	"district"
+)
+
+(FTab.163
+	Name:	"privwda.patdistrict"
+	BTab:	164
+	Fields:	174
+	Fields:	165
+	Fields:	166
+	Fields:	167
+	Fields:	168
+	Fields:	169
+	Fields:	170
+	Fields:	171
+	Fields:	172
+	SelBits:	175
+	FSrc:	159
+)
+
+(INFO.164
+	Name:	"privwda.patdistrict"
+	Fields:	165
+	Fields:	166
+	Fields:	167
+	Fields:	168
+	Fields:	169
+	Fields:	170
+	Fields:	171
+	Fields:	172
+	FileName:	173
+)
+
+(Field.165
+	Name:	"Area"
+	Btab:	164
+	Alias:	"Area"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.166
+	Name:	"Perimeter"
+	Btab:	164
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.167
+	Name:	"District#"
+	Btab:	164
+	Alias:	"District#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.168
+	Name:	"District-id"
+	Btab:	164
+	Alias:	"District-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.169
+	Name:	"Wdname"
+	Btab:	164
+	Alias:	"Wdname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.170
+	Name:	"Idcon"
+	Btab:	164
+	Alias:	"Idcon"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.171
+	Name:	"Shadesym"
+	Btab:	164
+	Alias:	"Shadesym"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.172
+	Name:	"Pname"
+	Btab:	164
+	Alias:	"Pname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.173
+	Path:	"d:/data/swap/gis-library/statewide/info/privwda.patdistrict"
+)
+
+(Field.174
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.175
+	NumBits:	595
+
+)
+
+(Legend.176
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	177
+	Class:	182
+	StdDevs:	1.00000000000000
+	NullSym:	183
+	NullValues:	187
+	StatValues:	188
+	Precision:	-3
+)
+
+(SymList.177
+	Child:	178
+)
+
+(BShSym.178
+	Color:	179
+	Outline:	1
+	OutlineColor:	180
+	OutlineWidth:	0.10000000000000
+	BgColor:	181
+)
+
+(TClr.179
+	Red:	0xa5a5
+	Green:	0xa5a5
+	Blue:	0xa5a5
+)
+
+(TClr.180
+)
+
+(TClr.181
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.182
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.183
+	Color:	184
+	Outline:	1
+	OutlineColor:	185
+	OutlineWidth:	0.10000000000000
+	BgColor:	186
+)
+
+(TClr.184
+	Name:	"Transparent"
+)
+
+(TClr.185
+	Name:	"Transparent"
+)
+
+(TClr.186
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.187
+)
+
+(NameDict.188
+)
+
+(Thresh.189
+)
+
+(GSet.190
+)
+
+(TxPosPly.191
+	HAlign:	3
+	VAlign:	3
+)
+
+(Table.192
+	Name:	"Attributes of District-Private"
+	CreationDate:	"Wednesday, January 09, 2002 11:15:58 AM"
+	GUIName:	"Table"
+	Win:	193
+	CSMgr:	194
+	DocExts:	196
+	VTab:	197
+)
+
+(DocWin.193
+	Owner:	192
+	X:	39
+	Y:	315
+	W:	498
+	H:	388
+)
+
+(CSMgr.194
+	Client:	195
+)
+
+(CSClient.195
+	Client:	158
+	ReqName:	"RespondTable"
+)
+
+(DocAct.196
+	Doc:	192
+)
+
+(FTab.197
+	Name:	"privwda.patdistrict"
+	BTab:	198
+	Fields:	208
+	Fields:	199
+	Fields:	200
+	Fields:	201
+	Fields:	202
+	Fields:	203
+	Fields:	204
+	Fields:	205
+	Fields:	206
+	SelBits:	209
+	FSrc:	159
+)
+
+(INFO.198
+	Name:	"privwda.patdistrict"
+	Fields:	199
+	Fields:	200
+	Fields:	201
+	Fields:	202
+	Fields:	203
+	Fields:	204
+	Fields:	205
+	Fields:	206
+	FileName:	207
+)
+
+(Field.199
+	Name:	"Area"
+	Btab:	198
+	Alias:	"Area"
+	Type:	6
+	Order:	-1
+	Pixels:	77
+)
+
+(Field.200
+	Name:	"Perimeter"
+	Btab:	198
+	Alias:	"Perimeter"
+	Type:	6
+	Order:	-1
+	Pixels:	77
+)
+
+(Field.201
+	Name:	"District#"
+	Btab:	198
+	Alias:	"District#"
+	Type:	3
+	Order:	-1
+	Pixels:	44
+)
+
+(Field.202
+	Name:	"District-id"
+	Btab:	198
+	Alias:	"District-id"
+	Type:	3
+	Order:	-1
+	Pixels:	48
+)
+
+(Field.203
+	Name:	"Wdname"
+	Btab:	198
+	Alias:	"Wdname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	203
+)
+
+(Field.204
+	Name:	"Idcon"
+	Btab:	198
+	Alias:	"Idcon"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.205
+	Name:	"Shadesym"
+	Btab:	198
+	Alias:	"Shadesym"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	54
+)
+
+(Field.206
+	Name:	"Pname"
+	Btab:	198
+	Alias:	"Pname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(FN.207
+	Path:	"d:/data/swap/gis-library/statewide/info/privwda.patdistrict"
+)
+
+(Field.208
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.209
+	NumBits:	595
+	NumBitsSet:	1
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00100000 00000000 00000000 
+)
+
+(FTheme.210
+	Name:	"Cty"
+	Source:	211
+	Flags:	0x07
+	Legend:	225
+	Threshold:	238
+	View:	42
+	GSet:	239
+	LegEditScript:	"View.EditLegend"
+	TxPos:	240
+	SnapTolCursor:	1
+)
+
+(CovSrc.211
+	Name:	212
+	FClass:	214
+	FTab:	215
+)
+
+(SrcName.212
+	FileName:	213
+	Name:	"cty"
+	SubName:	"polygon"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.213
+	Path:	"d:/data/statewide/cty"
+)
+
+(FClass.214
+	Type:	3
+	Feature:	"polygon"
+)
+
+(FTab.215
+	Name:	"cty.pat"
+	BTab:	216
+	Query:	"( [Num] = 39 )"
+	Fields:	223
+	Fields:	217
+	Fields:	218
+	Fields:	219
+	Fields:	220
+	Fields:	221
+	SelBits:	224
+	FSrc:	211
+)
+
+(INFO.216
+	Name:	"cty.pat"
+	Skip:	1
+	Fields:	217
+	Fields:	218
+	Fields:	219
+	Fields:	220
+	Fields:	221
+	FileName:	222
+)
+
+(Field.217
+	Name:	"Area"
+	Btab:	216
+	Alias:	"Area"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.218
+	Name:	"Perimeter"
+	Btab:	216
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.219
+	Name:	"Cty#"
+	Btab:	216
+	Alias:	"Cty#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.220
+	Name:	"Cty-id"
+	Btab:	216
+	Alias:	"Cty-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.221
+	Name:	"Num"
+	Btab:	216
+	Alias:	"Num"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.222
+	Path:	"d:/data/statewide/info/cty.pat"
+)
+
+(Field.223
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.224
+	NumBits:	78
+
+)
+
+(Legend.225
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	226
+	Class:	231
+	StdDevs:	1.00000000000000
+	NullSym:	232
+	NullValues:	236
+	StatValues:	237
+	Precision:	-3
+)
+
+(SymList.226
+	Child:	227
+)
+
+(BShSym.227
+	Color:	228
+	Outline:	1
+	OutlineColor:	229
+	OutlineWidth:	0.10000000000000
+	BgColor:	230
+)
+
+(TClr.228
+	Red:	0xe3ea
+	Green:	0xcabe
+	Blue:	0xaa6
+)
+
+(TClr.229
+)
+
+(TClr.230
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.231
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.232
+	Color:	233
+	Outline:	1
+	OutlineColor:	234
+	OutlineWidth:	0.10000000000000
+	BgColor:	235
+)
+
+(TClr.233
+	Name:	"Transparent"
+)
+
+(TClr.234
+	Name:	"Transparent"
+)
+
+(TClr.235
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.236
+)
+
+(NameDict.237
+)
+
+(Thresh.238
+)
+
+(GSet.239
+)
+
+(TxPosPly.240
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.241
+	Name:	"Cenblock"
+	Source:	242
+	Flags:	0x04
+	Legend:	267
+	Threshold:	280
+	View:	42
+	GSet:	281
+	LegEditScript:	"View.EditLegend"
+	TxPos:	282
+	SnapTolCursor:	1
+)
+
+(CovSrc.242
+	Name:	243
+	FClass:	245
+	FTab:	246
+)
+
+(SrcName.243
+	FileName:	244
+	Name:	"cenblock00"
+	SubName:	"polygon"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.244
+	Path:	"d:/data/statewide/cenblock00"
+)
+
+(FClass.245
+	Type:	3
+	Feature:	"polygon"
+)
+
+(FTab.246
+	Name:	"cenblock00.pat"
+	BTab:	247
+	Fields:	265
+	Fields:	248
+	Fields:	249
+	Fields:	250
+	Fields:	251
+	Fields:	252
+	Fields:	253
+	Fields:	254
+	Fields:	255
+	Fields:	256
+	Fields:	257
+	Fields:	258
+	Fields:	259
+	Fields:	260
+	Fields:	261
+	Fields:	262
+	Fields:	263
+	SelBits:	266
+	FSrc:	242
+)
+
+(INFO.247
+	Name:	"cenblock00.pat"
+	Skip:	1
+	Fields:	248
+	Fields:	249
+	Fields:	250
+	Fields:	251
+	Fields:	252
+	Fields:	253
+	Fields:	254
+	Fields:	255
+	Fields:	256
+	Fields:	257
+	Fields:	258
+	Fields:	259
+	Fields:	260
+	Fields:	261
+	Fields:	262
+	Fields:	263
+	FileName:	264
+)
+
+(Field.248
+	Name:	"Area"
+	Btab:	247
+	Alias:	"Area"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.249
+	Name:	"Perimeter"
+	Btab:	247
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.250
+	Name:	"Cenblock00#"
+	Btab:	247
+	Alias:	"Cenblock00#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.251
+	Name:	"Cenblock00-id"
+	Btab:	247
+	Alias:	"Cenblock00-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.252
+	Name:	"Fips_ctbl"
+	Btab:	247
+	Alias:	"Fips_ctbl"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.253
+	Name:	"Place"
+	Btab:	247
+	Alias:	"Place"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.254
+	Name:	"Pop100"
+	Btab:	247
+	Alias:	"Pop100"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.255
+	Name:	"Hu100"
+	Btab:	247
+	Alias:	"Hu100"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.256
+	Name:	"Pdensity"
+	Btab:	247
+	Alias:	"Pdensity"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.257
+	Name:	"Hdensity"
+	Btab:	247
+	Alias:	"Hdensity"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.258
+	Name:	"Arealand"
+	Btab:	247
+	Alias:	"Arealand"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.259
+	Name:	"Areawatr"
+	Btab:	247
+	Alias:	"Areawatr"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.260
+	Name:	"Cnty"
+	Btab:	247
+	Alias:	"Cnty"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(Field.261
+	Name:	"Tract"
+	Btab:	247
+	Alias:	"Tract"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(Field.262
+	Name:	"Block_group"
+	Btab:	247
+	Alias:	"Block_group"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(Field.263
+	Name:	"Block"
+	Btab:	247
+	Alias:	"Block"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(FN.264
+	Path:	"d:/data/statewide/info/cenblock00.pat"
+)
+
+(Field.265
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.266
+	NumBits:	533602
+
+)
+
+(Legend.267
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	268
+	Class:	273
+	StdDevs:	1.00000000000000
+	NullSym:	274
+	NullValues:	278
+	StatValues:	279
+	Precision:	-3
+)
+
+(SymList.268
+	Child:	269
+)
+
+(BShSym.269
+	Color:	270
+	Outline:	1
+	OutlineColor:	271
+	OutlineWidth:	0.10000000000000
+	BgColor:	272
+)
+
+(TClr.270
+	Red:	0x5a51
+	Green:	0x978e
+	Blue:	0x564
+)
+
+(TClr.271
+)
+
+(TClr.272
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.273
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.274
+	Color:	275
+	Outline:	1
+	OutlineColor:	276
+	OutlineWidth:	0.10000000000000
+	BgColor:	277
+)
+
+(TClr.275
+	Name:	"Transparent"
+)
+
+(TClr.276
+	Name:	"Transparent"
+)
+
+(TClr.277
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.278
+)
+
+(NameDict.279
+)
+
+(Thresh.280
+)
+
+(GSet.281
+)
+
+(TxPosPly.282
+	HAlign:	3
+	VAlign:	3
+)
+
+(GSet.283
+)
+
+(TxPosPly.284
+	HAlign:	3
+	VAlign:	3
+)
+
+(DocAct.285
+	Doc:	6
+)
+
+(FTab.286
+	Name:	"fedwda.patdistrict"
+	BTab:	287
+	Fields:	297
+	Fields:	288
+	Fields:	289
+	Fields:	290
+	Fields:	291
+	Fields:	292
+	Fields:	293
+	Fields:	294
+	Fields:	295
+	SelBits:	298
+	FSrc:	11
+)
+
+(INFO.287
+	Name:	"fedwda.patdistrict"
+	Fields:	288
+	Fields:	289
+	Fields:	290
+	Fields:	291
+	Fields:	292
+	Fields:	293
+	Fields:	294
+	Fields:	295
+	FileName:	296
+)
+
+(Field.288
+	Name:	"Area"
+	Btab:	287
+	Alias:	"Area"
+	Type:	6
+	Order:	-1
+	Pixels:	77
+)
+
+(Field.289
+	Name:	"Perimeter"
+	Btab:	287
+	Alias:	"Perimeter"
+	Type:	6
+	Order:	-1
+	Pixels:	77
+)
+
+(Field.290
+	Name:	"District#"
+	Btab:	287
+	Alias:	"District#"
+	Type:	3
+	Order:	-1
+	Pixels:	44
+)
+
+(Field.291
+	Name:	"District-id"
+	Btab:	287
+	Alias:	"District-id"
+	Type:	3
+	Order:	-1
+	Pixels:	50
+)
+
+(Field.292
+	Name:	"Wdname"
+	Btab:	287
+	Alias:	"Wdname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	215
+)
+
+(Field.293
+	Name:	"Idcon"
+	Btab:	287
+	Alias:	"Idcon"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.294
+	Name:	"Shadesym"
+	Btab:	287
+	Alias:	"Shadesym"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	56
+)
+
+(Field.295
+	Name:	"Pname"
+	Btab:	287
+	Alias:	"Pname"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(FN.296
+	Path:	"d:/data/swap/gis-library/statewide/info/fedwda.patdistrict"
+)
+
+(Field.297
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.298
+	NumBits:	160
+	NumBitsSet:	1
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00040000 
+)
+
+(Table.299
+	Name:	"Attributes of Wells-01-12-14.shp"
+	CreationDate:	"Wednesday, January 09, 2002 11:27:35 AM"
+	GUIName:	"Table"
+	Win:	300
+	CSMgr:	301
+	DocExts:	442
+	VTab:	307
+)
+
+(DocWin.300
+	Owner:	299
+	X:	169
+	Y:	19
+	W:	698
+	H:	591
+)
+
+(CSMgr.301
+	Client:	302
+)
+
+(CSClient.302
+	Client:	303
+	ReqName:	"RespondTable"
+)
+
+(FTheme.303
+	Name:	"Wells-01-12-14.shp"
+	Source:	304
+	Flags:	0x06
+	Legend:	342
+	Threshold:	361
+	View:	362
+	GSet:	440
+	LegEditScript:	"View.EditLegend"
+	TxPos:	441
+	LabelField:	315
+	Table:	299
+	SnapTolCursor:	1
+)
+
+(ShpSrc.304
+	Name:	305
+	FTab:	307
+)
+
+(SrcName.305
+	FileName:	306
+	Name:	"wells-01-12-14.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.306
+	Path:	"h:/proj/swap/wells-01-12-14.shp"
+)
+
+(FTab.307
+	Name:	"wells-01-12-14.dbf"
+	BTab:	308
+	Fields:	340
+	Fields:	309
+	Fields:	310
+	Fields:	311
+	Fields:	312
+	Fields:	313
+	Fields:	314
+	Fields:	315
+	Fields:	316
+	Fields:	317
+	Fields:	318
+	Fields:	319
+	Fields:	320
+	Fields:	321
+	Fields:	322
+	Fields:	323
+	Fields:	324
+	Fields:	325
+	Fields:	326
+	Fields:	327
+	Fields:	328
+	Fields:	329
+	Fields:	330
+	Fields:	331
+	Fields:	332
+	Fields:	333
+	Fields:	334
+	Fields:	335
+	Fields:	336
+	Fields:	337
+	Fields:	338
+	SelBits:	341
+	FSrc:	304
+)
+
+(dBASE.308
+	Name:	"wells-01-12-14.dbf"
+	Fields:	309
+	Fields:	310
+	Fields:	311
+	Fields:	312
+	Fields:	313
+	Fields:	314
+	Fields:	315
+	Fields:	316
+	Fields:	317
+	Fields:	318
+	Fields:	319
+	Fields:	320
+	Fields:	321
+	Fields:	322
+	Fields:	323
+	Fields:	324
+	Fields:	325
+	Fields:	326
+	Fields:	327
+	Fields:	328
+	Fields:	329
+	Fields:	330
+	Fields:	331
+	Fields:	332
+	Fields:	333
+	Fields:	334
+	Fields:	335
+	Fields:	336
+	Fields:	337
+	Fields:	338
+	FileName:	339
+)
+
+(Field.309
+	Name:	"Con_pkey"
+	Btab:	308
+	Alias:	"Con_pkey"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.310
+	Name:	"District"
+	Btab:	308
+	Alias:	"District"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	37
+)
+
+(Field.311
+	Name:	"System"
+	Btab:	308
+	Alias:	"System"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	47
+)
+
+(Field.312
+	Name:	"System_nm"
+	Btab:	308
+	Alias:	"System_nm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	226
+)
+
+(Field.313
+	Name:	"Source"
+	Btab:	308
+	Alias:	"Source"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	39
+)
+
+(Field.314
+	Name:	"County"
+	Btab:	308
+	Alias:	"County"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	38
+)
+
+(Field.315
+	Name:	"Loc_name"
+	Btab:	308
+	Alias:	"Loc_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.316
+	Name:	"Loc_city"
+	Btab:	308
+	Alias:	"Loc_city"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	149
+)
+
+(Field.317
+	Name:	"Ps_code"
+	Btab:	308
+	Alias:	"Ps_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	95
+)
+
+(Field.318
+	Name:	"Source_key"
+	Btab:	308
+	Alias:	"Source_key"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	62
+)
+
+(Field.319
+	Name:	"Pm_status"
+	Btab:	308
+	Alias:	"Pm_status"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	54
+)
+
+(Field.320
+	Name:	"Reg_entity"
+	Btab:	308
+	Alias:	"Reg_entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	56
+)
+
+(Field.321
+	Name:	"Source_nm"
+	Btab:	308
+	Alias:	"Source_nm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.322
+	Name:	"Latitude"
+	Btab:	308
+	Alias:	"Latitude"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(Field.323
+	Name:	"Longitude"
+	Btab:	308
+	Alias:	"Longitude"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	125
+)
+
+(Field.324
+	Name:	"Precision_"
+	Btab:	308
+	Alias:	"Precision_"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	54
+)
+
+(Field.325
+	Name:	"Ent_info"
+	Btab:	308
+	Alias:	"Ent_info"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	44
+)
+
+(Field.326
+	Name:	"Availabili"
+	Btab:	308
+	Alias:	"Availabili"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	46
+)
+
+(Field.327
+	Name:	"Srec_type"
+	Btab:	308
+	Alias:	"Srec_type"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	53
+)
+
+(Field.328
+	Name:	"Se_code"
+	Btab:	308
+	Alias:	"Se_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	48
+)
+
+(Field.329
+	Name:	"Water_type"
+	Btab:	308
+	Alias:	"Water_type"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	60
+)
+
+(Field.330
+	Name:	"Method"
+	Btab:	308
+	Alias:	"Method"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.331
+	Name:	"Well_no_db"
+	Btab:	308
+	Alias:	"Well_no_db"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	62
+)
+
+(Field.332
+	Name:	"Pws_class"
+	Btab:	308
+	Alias:	"Pws_class"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	55
+)
+
+(Field.333
+	Name:	"Gpsd"
+	Btab:	308
+	Alias:	"Gpsd"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	30
+)
+
+(Field.334
+	Name:	"Swapdone"
+	Btab:	308
+	Alias:	"Swapdone"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	56
+)
+
+(Field.335
+	Name:	"Porocity"
+	Btab:	308
+	Alias:	"Porocity"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	43
+)
+
+(Field.336
+	Name:	"Interval"
+	Btab:	308
+	Alias:	"Interval"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	40
+)
+
+(Field.337
+	Name:	"Pumping"
+	Btab:	308
+	Alias:	"Pumping"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	46
+)
+
+(Field.338
+	Name:	"Azimuth"
+	Btab:	308
+	Alias:	"Azimuth"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	42
+)
+
+(FN.339
+	Path:	"h:/proj/swap/wells-01-12-14.dbf"
+)
+
+(Field.340
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+	Pixels:	41
+)
+
+(Bitmap.341
+	NumBits:	19188
+	NumBitsSet:	682
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 49a10000 
+	Bits:	dc0626d1 f836df3f 7f29db3f 6b91d3bd 
+	Bits:	d05d7d0a 0373325e 4a1bf6de 7ffc1055 
+	Bits:	ffbbfeff 4f4e17fb 4d37bfe8 feffdffe 
+	Bits:	ef7fc6fc e6f7efd7 49e81671 109ba373 
+	Bits:	6159c1fb 3c20133c 500ffffe 01c3faf0 
+	Bits:	020c00c5 e000ddf1 000105c1 06062004 
+	Bits:	801501bd 20200a02 00000014 80000420 
+	Bits:	49100404 89bf0719 8035820d 1f7fc102 
+	Bits:	0076009d 2c19bbb0 0425b7e0 50001394 
+	Bits:	88000518 82405134 00008003 00000800 
+	Bits:	62601084 10404024 00826008 34200505 
+	Bits:	3222003a 0f140101 00000400 00024000 
+	Bits:	10080005 00000000 00000000 00000100 
+	Bits:	00020102 00e40000 00080000 00000808 
+	Bits:	80000000 38200000 ec008220 797d14f9 
+	Bits:	000c0000 00000008 00000100 6600e000 
+	Bits:	80000008 00008000 04004000 081e0888 
+	Bits:	00080d00 00000000 00000000 00000200 
+	Bits:	00000000 00000000 00000000 00010000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+	Bits:	00000000 00000000 00000000 00000000 
+
+)
+
+(Legend.342
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	343
+	Class:	351
+	StdDevs:	1.00000000000000
+	NullSym:	352
+	NullValues:	359
+	StatValues:	360
+	Precision:	-3
+)
+
+(SymList.343
+	Child:	344
+)
+
+(BMkSym.344
+	Color:	345
+	BgColor:	346
+	Font:	347
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.345
+	Red:	0x12d5
+	Green:	0xa610
+	Blue:	0xdf0e
+)
+
+(TClr.346
+	Name:	"Transparent"
+)
+
+(NFont.347
+	Family:	348
+	Name:	349
+	Style:	350
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.348
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.349
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.350
+	S:	"Normal"
+)
+
+(LClass.351
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.352
+	Color:	353
+	BgColor:	354
+	Font:	355
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.353
+	Name:	"Transparent"
+)
+
+(TClr.354
+	Name:	"Transparent"
+)
+
+(NFont.355
+	Family:	356
+	Name:	357
+	Style:	358
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.356
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.357
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.358
+	S:	"Normal"
+)
+
+(NameDict.359
+)
+
+(NameDict.360
+)
+
+(Thresh.361
+)
+
+(View.362
+	Name:	"Wells"
+	CreationDate:	"Wednesday, January 09, 2002 11:24:47 AM"
+	GUIName:	"View"
+	Win:	363
+	CSMgr:	364
+	DocExts:	366
+	DocExts:	367
+	DocExts:	368
+	Graphics:	371
+	Theme:	303
+	Theme:	378
+	Theme:	409
+	Dpy:	372
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.363
+	Owner:	362
+	X:	244
+	Y:	5
+	W:	742
+	H:	596
+)
+
+(CSMgr.364
+	Client:	365
+)
+
+(CSClient.365
+	Client:	366
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.366
+	Doc:	362
+)
+
+(DocAct.367
+	Doc:	362
+)
+
+(SpAnEnv.368
+	CellEnum:	369
+	CellSize:	370
+	ExtEnum:	369
+	Extent:	370
+)
+
+(AVEnum.369
+	Name:	"ANALYSISENV_MAXOF"
+)
+
+(Nil.370
+)
+
+(GList.371
+	Dpy:	372
+	FormatNumb:	377
+)
+
+(MapDpy.372
+	Left:	-141679.41620966248000
+	Bottom:	-63091.96767305787900
+	Top:	36353.20239260068000
+	Right:	-77674.36520443791200
+	Scale:	373
+	FrameTop:	5.88541666666667
+	FrameRight:	6.01041666666667
+	PageDpy:	374
+	FitToPage:	1
+	MouseLoc:	376
+)
+
+(Numb.373
+	N:	0.00005918252905
+)
+
+(PageDpy.374
+	Top:	5.88541666666667
+	Right:	6.01041666666667
+	ReportUnits:	1
+	Units:	1
+	Scale:	375
+	ZoomRight:	6.01041666666667
+	ZoomTop:	5.88541666666667
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.375
+	N:	0.16637781629116
+)
+
+(PointD.376
+	x:	-168270.25157795334000
+	y:	74186.47947657034100
+)
+
+(Numb.377
+)
+
+(FTheme.378
+	Name:	"Cty"
+	Source:	379
+	Flags:	0x06
+	Legend:	393
+	Threshold:	406
+	View:	362
+	GSet:	407
+	LegEditScript:	"View.EditLegend"
+	TxPos:	408
+	SnapTolCursor:	1
+)
+
+(CovSrc.379
+	Name:	380
+	FClass:	382
+	FTab:	383
+)
+
+(SrcName.380
+	FileName:	381
+	Name:	"cty"
+	SubName:	"polygon"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.381
+	Path:	"d:/data/statewide/cty"
+)
+
+(FClass.382
+	Type:	3
+	Feature:	"polygon"
+)
+
+(FTab.383
+	Name:	"cty.pat"
+	BTab:	384
+	Query:	"( [Num] = 34 )"
+	Fields:	391
+	Fields:	385
+	Fields:	386
+	Fields:	387
+	Fields:	388
+	Fields:	389
+	SelBits:	392
+	FSrc:	379
+)
+
+(INFO.384
+	Name:	"cty.pat"
+	Skip:	1
+	Fields:	385
+	Fields:	386
+	Fields:	387
+	Fields:	388
+	Fields:	389
+	FileName:	390
+)
+
+(Field.385
+	Name:	"Area"
+	Btab:	384
+	Alias:	"Area"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.386
+	Name:	"Perimeter"
+	Btab:	384
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.387
+	Name:	"Cty#"
+	Btab:	384
+	Alias:	"Cty#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.388
+	Name:	"Cty-id"
+	Btab:	384
+	Alias:	"Cty-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.389
+	Name:	"Num"
+	Btab:	384
+	Alias:	"Num"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.390
+	Path:	"d:/data/statewide/info/cty.pat"
+)
+
+(Field.391
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.392
+	NumBits:	78
+
+)
+
+(Legend.393
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	394
+	Class:	399
+	StdDevs:	1.00000000000000
+	NullSym:	400
+	NullValues:	404
+	StatValues:	405
+	Precision:	-3
+)
+
+(SymList.394
+	Child:	395
+)
+
+(BShSym.395
+	Color:	396
+	Outline:	1
+	OutlineColor:	397
+	OutlineWidth:	0.10000000000000
+	BgColor:	398
+)
+
+(TClr.396
+	Red:	0xe3ea
+	Green:	0xcabe
+	Blue:	0xaa6
+)
+
+(TClr.397
+)
+
+(TClr.398
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.399
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.400
+	Color:	401
+	Outline:	1
+	OutlineColor:	402
+	OutlineWidth:	0.10000000000000
+	BgColor:	403
+)
+
+(TClr.401
+	Name:	"Transparent"
+)
+
+(TClr.402
+	Name:	"Transparent"
+)
+
+(TClr.403
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.404
+)
+
+(NameDict.405
+)
+
+(Thresh.406
+)
+
+(GSet.407
+)
+
+(TxPosPly.408
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.409
+	Name:	"Cty"
+	Source:	410
+	Flags:	0x07
+	Legend:	424
+	Threshold:	437
+	View:	362
+	GSet:	438
+	LegEditScript:	"View.EditLegend"
+	TxPos:	439
+	SnapTolCursor:	1
+)
+
+(CovSrc.410
+	Name:	411
+	FClass:	413
+	FTab:	414
+)
+
+(SrcName.411
+	FileName:	412
+	Name:	"cty"
+	SubName:	"polygon"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.412
+	Path:	"d:/data/statewide/cty"
+)
+
+(FClass.413
+	Type:	3
+	Feature:	"polygon"
+)
+
+(FTab.414
+	Name:	"cty.pat"
+	BTab:	415
+	Query:	"( [Num] = 39 )"
+	Fields:	422
+	Fields:	416
+	Fields:	417
+	Fields:	418
+	Fields:	419
+	Fields:	420
+	SelBits:	423
+	FSrc:	410
+)
+
+(INFO.415
+	Name:	"cty.pat"
+	Skip:	1
+	Fields:	416
+	Fields:	417
+	Fields:	418
+	Fields:	419
+	Fields:	420
+	FileName:	421
+)
+
+(Field.416
+	Name:	"Area"
+	Btab:	415
+	Alias:	"Area"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.417
+	Name:	"Perimeter"
+	Btab:	415
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.418
+	Name:	"Cty#"
+	Btab:	415
+	Alias:	"Cty#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.419
+	Name:	"Cty-id"
+	Btab:	415
+	Alias:	"Cty-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.420
+	Name:	"Num"
+	Btab:	415
+	Alias:	"Num"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.421
+	Path:	"d:/data/statewide/info/cty.pat"
+)
+
+(Field.422
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.423
+	NumBits:	78
+
+)
+
+(Legend.424
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	425
+	Class:	430
+	StdDevs:	1.00000000000000
+	NullSym:	431
+	NullValues:	435
+	StatValues:	436
+	Precision:	-3
+)
+
+(SymList.425
+	Child:	426
+)
+
+(BShSym.426
+	Color:	427
+	Outline:	1
+	OutlineColor:	428
+	OutlineWidth:	0.10000000000000
+	BgColor:	429
+)
+
+(TClr.427
+	Red:	0xe3ea
+	Green:	0xcabe
+	Blue:	0xaa6
+)
+
+(TClr.428
+)
+
+(TClr.429
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.430
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.431
+	Color:	432
+	Outline:	1
+	OutlineColor:	433
+	OutlineWidth:	0.10000000000000
+	BgColor:	434
+)
+
+(TClr.432
+	Name:	"Transparent"
+)
+
+(TClr.433
+	Name:	"Transparent"
+)
+
+(TClr.434
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.435
+)
+
+(NameDict.436
+)
+
+(Thresh.437
+)
+
+(GSet.438
+)
+
+(TxPosPly.439
+	HAlign:	3
+	VAlign:	3
+)
+
+(GSet.440
+)
+
+(TxPosPt.441
+	HAlign:	4
+	VAlign:	3
+)
+
+(DocAct.442
+	Doc:	299
+)
+
+(View.443
+	Name:	"Block 2000"
+	CreationDate:	"Wednesday, January 09, 2002 11:17:35 AM"
+	GUIName:	"View"
+	Win:	444
+	CSMgr:	445
+	DocExts:	447
+	DocExts:	448
+	DocExts:	449
+	Graphics:	450
+	Theme:	457
+	Theme:	550
+	Dpy:	451
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.444
+	Owner:	443
+	X:	249
+	Y:	6
+	W:	729
+	H:	592
+)
+
+(CSMgr.445
+	Client:	446
+)
+
+(CSClient.446
+	Client:	447
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.447
+	Doc:	443
+)
+
+(DocAct.448
+	Doc:	443
+)
+
+(SpAnEnv.449
+	CellEnum:	49
+	CellSize:	50
+	ExtEnum:	49
+	Extent:	50
+)
+
+(GList.450
+	Dpy:	451
+	FormatNumb:	456
+)
+
+(MapDpy.451
+	Left:	-166787.12018374671000
+	Bottom:	-2439.59765515476830
+	Top:	84952.06870323605800
+	Right:	-85708.43034138219100
+	Scale:	452
+	FrameTop:	5.84375000000000
+	FrameRight:	5.87500000000000
+	PageDpy:	453
+	FitToPage:	1
+	MouseLoc:	455
+)
+
+(Numb.452
+	N:	0.00006686850410
+)
+
+(PageDpy.453
+	Top:	5.84375000000000
+	Right:	5.87500000000000
+	ReportUnits:	1
+	Units:	1
+	Scale:	454
+	ZoomRight:	5.87500000000000
+	ZoomTop:	5.84375000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.454
+	N:	0.17021276595745
+)
+
+(PointD.455
+	x:	-167840.60042778790000
+	y:	65012.43716335366500
+)
+
+(Numb.456
+)
+
+(FTheme.457
+	Name:	"Bg90"
+	Source:	458
+	Flags:	0x06
+	Legend:	534
+	Threshold:	547
+	View:	443
+	GSet:	548
+	LegEditScript:	"View.EditLegend"
+	TxPos:	549
+	SnapTolCursor:	1
+)
+
+(CovSrc.458
+	Name:	459
+	FClass:	461
+	FTab:	462
+)
+
+(SrcName.459
+	FileName:	460
+	Name:	"bg90"
+	SubName:	"polygon"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.460
+	Path:	"d:/data/swap/gis-library/statewide/bg90"
+)
+
+(FClass.461
+	Type:	3
+	Feature:	"polygon"
+)
+
+(FTab.462
+	Name:	"bg90.pat"
+	BTab:	463
+	Fields:	532
+	Fields:	464
+	Fields:	465
+	Fields:	466
+	Fields:	467
+	Fields:	468
+	Fields:	469
+	Fields:	470
+	Fields:	471
+	Fields:	472
+	Fields:	473
+	Fields:	474
+	Fields:	475
+	Fields:	476
+	Fields:	477
+	Fields:	478
+	Fields:	479
+	Fields:	480
+	Fields:	481
+	Fields:	482
+	Fields:	483
+	Fields:	484
+	Fields:	485
+	Fields:	486
+	Fields:	487
+	Fields:	488
+	Fields:	489
+	Fields:	490
+	Fields:	491
+	Fields:	492
+	Fields:	493
+	Fields:	494
+	Fields:	495
+	Fields:	496
+	Fields:	497
+	Fields:	498
+	Fields:	499
+	Fields:	500
+	Fields:	501
+	Fields:	502
+	Fields:	503
+	Fields:	504
+	Fields:	505
+	Fields:	506
+	Fields:	507
+	Fields:	508
+	Fields:	509
+	Fields:	510
+	Fields:	511
+	Fields:	512
+	Fields:	513
+	Fields:	514
+	Fields:	515
+	Fields:	516
+	Fields:	517
+	Fields:	518
+	Fields:	519
+	Fields:	520
+	Fields:	521
+	Fields:	522
+	Fields:	523
+	Fields:	524
+	Fields:	525
+	Fields:	526
+	Fields:	527
+	Fields:	528
+	Fields:	529
+	Fields:	530
+	SelBits:	533
+	FSrc:	458
+)
+
+(INFO.463
+	Name:	"bg90.pat"
+	Skip:	1
+	Fields:	464
+	Fields:	465
+	Fields:	466
+	Fields:	467
+	Fields:	468
+	Fields:	469
+	Fields:	470
+	Fields:	471
+	Fields:	472
+	Fields:	473
+	Fields:	474
+	Fields:	475
+	Fields:	476
+	Fields:	477
+	Fields:	478
+	Fields:	479
+	Fields:	480
+	Fields:	481
+	Fields:	482
+	Fields:	483
+	Fields:	484
+	Fields:	485
+	Fields:	486
+	Fields:	487
+	Fields:	488
+	Fields:	489
+	Fields:	490
+	Fields:	491
+	Fields:	492
+	Fields:	493
+	Fields:	494
+	Fields:	495
+	Fields:	496
+	Fields:	497
+	Fields:	498
+	Fields:	499
+	Fields:	500
+	Fields:	501
+	Fields:	502
+	Fields:	503
+	Fields:	504
+	Fields:	505
+	Fields:	506
+	Fields:	507
+	Fields:	508
+	Fields:	509
+	Fields:	510
+	Fields:	511
+	Fields:	512
+	Fields:	513
+	Fields:	514
+	Fields:	515
+	Fields:	516
+	Fields:	517
+	Fields:	518
+	Fields:	519
+	Fields:	520
+	Fields:	521
+	Fields:	522
+	Fields:	523
+	Fields:	524
+	Fields:	525
+	Fields:	526
+	Fields:	527
+	Fields:	528
+	Fields:	529
+	Fields:	530
+	FileName:	531
+)
+
+(Field.464
+	Name:	"Area"
+	Btab:	463
+	Alias:	"Area"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.465
+	Name:	"Perimeter"
+	Btab:	463
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.466
+	Name:	"Bg90#"
+	Btab:	463
+	Alias:	"Bg90#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.467
+	Name:	"Bg90-id"
+	Btab:	463
+	Alias:	"Bg90-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.468
+	Name:	"Arbga_"
+	Btab:	463
+	Alias:	"Arbga_"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.469
+	Name:	"Arbga_id"
+	Btab:	463
+	Alias:	"Arbga_id"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.470
+	Name:	"Blockgroup"
+	Btab:	463
+	Alias:	"Blockgroup"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.471
+	Name:	"Bkg_key"
+	Btab:	463
+	Alias:	"Bkg_key"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.472
+	Name:	"Logrecnu"
+	Btab:	463
+	Alias:	"Logrecnu"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.473
+	Name:	"Lean_reg"
+	Btab:	463
+	Alias:	"Lean_reg"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.474
+	Name:	"Med_fam_in"
+	Btab:	463
+	Alias:	"Med_fam_in"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.475
+	Name:	"Income20k_"
+	Btab:	463
+	Alias:	"Income20k_"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.476
+	Name:	"Totpersons"
+	Btab:	463
+	Alias:	"Totpersons"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.477
+	Name:	"Pct_white"
+	Btab:	463
+	Alias:	"Pct_white"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.478
+	Name:	"Pct_afr_am"
+	Btab:	463
+	Alias:	"Pct_afr_am"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.479
+	Name:	"Pct_indg_a"
+	Btab:	463
+	Alias:	"Pct_indg_a"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.480
+	Name:	"Pct_chines"
+	Btab:	463
+	Alias:	"Pct_chines"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.481
+	Name:	"Pct_filipi"
+	Btab:	463
+	Alias:	"Pct_filipi"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.482
+	Name:	"Pct_japane"
+	Btab:	463
+	Alias:	"Pct_japane"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.483
+	Name:	"Pct_asn_in"
+	Btab:	463
+	Alias:	"Pct_asn_in"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.484
+	Name:	"Pct_korean"
+	Btab:	463
+	Alias:	"Pct_korean"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.485
+	Name:	"Pct_se_asi"
+	Btab:	463
+	Alias:	"Pct_se_asi"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.486
+	Name:	"Pct_oth_as"
+	Btab:	463
+	Alias:	"Pct_oth_as"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.487
+	Name:	"Pct_pac_is"
+	Btab:	463
+	Alias:	"Pct_pac_is"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.488
+	Name:	"Pct_mexica"
+	Btab:	463
+	Alias:	"Pct_mexica"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.489
+	Name:	"Pct_pto_ri"
+	Btab:	463
+	Alias:	"Pct_pto_ri"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.490
+	Name:	"Pct_cuban"
+	Btab:	463
+	Alias:	"Pct_cuban"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.491
+	Name:	"Pct_latn_a"
+	Btab:	463
+	Alias:	"Pct_latn_a"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.492
+	Name:	"Pct_oth_hi"
+	Btab:	463
+	Alias:	"Pct_oth_hi"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.493
+	Name:	"Pct_other"
+	Btab:	463
+	Alias:	"Pct_other"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.494
+	Name:	"Predom_rac"
+	Btab:	463
+	Alias:	"Predom_rac"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.495
+	Name:	"Predom_nwr"
+	Btab:	463
+	Alias:	"Predom_nwr"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.496
+	Name:	"Lng_pri"
+	Btab:	463
+	Alias:	"Lng_pri"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.497
+	Name:	"Lng_pripct"
+	Btab:	463
+	Alias:	"Lng_pripct"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.498
+	Name:	"Lng_prine"
+	Btab:	463
+	Alias:	"Lng_prine"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.499
+	Name:	"Lng_prinep"
+	Btab:	463
+	Alias:	"Lng_prinep"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.500
+	Name:	"Lng_othpct"
+	Btab:	463
+	Alias:	"Lng_othpct"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.501
+	Name:	"Fs_persons"
+	Btab:	463
+	Alias:	"Fs_persons"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.502
+	Name:	"Fsr_densit"
+	Btab:	463
+	Alias:	"Fsr_densit"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.503
+	Name:	"Fs_pctwht"
+	Btab:	463
+	Alias:	"Fs_pctwht"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.504
+	Name:	"Fs_pcthisp"
+	Btab:	463
+	Alias:	"Fs_pcthisp"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.505
+	Name:	"Fs_pctblk"
+	Btab:	463
+	Alias:	"Fs_pctblk"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.506
+	Name:	"Fs_pctpcf_"
+	Btab:	463
+	Alias:	"Fs_pctpcf_"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.507
+	Name:	"Fs_pctamr_"
+	Btab:	463
+	Alias:	"Fs_pctamr_"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.508
+	Name:	"Fs_pctfili"
+	Btab:	463
+	Alias:	"Fs_pctfili"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.509
+	Name:	"Fs_pctasia"
+	Btab:	463
+	Alias:	"Fs_pctasia"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.510
+	Name:	"Fs_pctse_a"
+	Btab:	463
+	Alias:	"Fs_pctse_a"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.511
+	Name:	"Fs_pctasi_"
+	Btab:	463
+	Alias:	"Fs_pctasi_"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.512
+	Name:	"Fs_pctunkw"
+	Btab:	463
+	Alias:	"Fs_pctunkw"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.513
+	Name:	"Fs_pdrace"
+	Btab:	463
+	Alias:	"Fs_pdrace"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.514
+	Name:	"Fs_pctpdr"
+	Btab:	463
+	Alias:	"Fs_pctpdr"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.515
+	Name:	"Fs_pdnwrac"
+	Btab:	463
+	Alias:	"Fs_pdnwrac"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.516
+	Name:	"Fs_pctnwr"
+	Btab:	463
+	Alias:	"Fs_pctnwr"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.517
+	Name:	"Fs_pctrest"
+	Btab:	463
+	Alias:	"Fs_pctrest"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.518
+	Name:	"Fs_r1lngct"
+	Btab:	463
+	Alias:	"Fs_r1lngct"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.519
+	Name:	"Fs_r1lngty"
+	Btab:	463
+	Alias:	"Fs_r1lngty"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.520
+	Name:	"Fs_r2lngct"
+	Btab:	463
+	Alias:	"Fs_r2lngct"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.521
+	Name:	"Fs_r2lngty"
+	Btab:	463
+	Alias:	"Fs_r2lngty"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.522
+	Name:	"Fs_r3lngct"
+	Btab:	463
+	Alias:	"Fs_r3lngct"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.523
+	Name:	"Fs_r3lngty"
+	Btab:	463
+	Alias:	"Fs_r3lngty"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.524
+	Name:	"Fs_plng"
+	Btab:	463
+	Alias:	"Fs_plng"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.525
+	Name:	"Fs_plang"
+	Btab:	463
+	Alias:	"Fs_plang"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.526
+	Name:	"Fs_pnelng"
+	Btab:	463
+	Alias:	"Fs_pnelng"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.527
+	Name:	"Fs_pnelang"
+	Btab:	463
+	Alias:	"Fs_pnelang"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.528
+	Name:	"Fs_plngpct"
+	Btab:	463
+	Alias:	"Fs_plngpct"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.529
+	Name:	"Fs_pnelngp"
+	Btab:	463
+	Alias:	"Fs_pnelngp"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(Field.530
+	Name:	"Fs_othlngp"
+	Btab:	463
+	Alias:	"Fs_othlngp"
+	Visible:	1
+	Type:	6
+	Order:	-1
+)
+
+(FN.531
+	Path:	"d:/data/swap/gis-library/statewide/info/bg90.pat"
+)
+
+(Field.532
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.533
+	NumBits:	21903
+
+)
+
+(Legend.534
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	535
+	Class:	540
+	StdDevs:	1.00000000000000
+	NullSym:	541
+	NullValues:	545
+	StatValues:	546
+	Precision:	-3
+)
+
+(SymList.535
+	Child:	536
+)
+
+(BShSym.536
+	Color:	537
+	Outline:	1
+	OutlineColor:	538
+	OutlineWidth:	0.10000000000000
+	BgColor:	539
+)
+
+(TClr.537
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(TClr.538
+)
+
+(TClr.539
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.540
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.541
+	Color:	542
+	Outline:	1
+	OutlineColor:	543
+	OutlineWidth:	0.10000000000000
+	BgColor:	544
+)
+
+(TClr.542
+	Name:	"Transparent"
+)
+
+(TClr.543
+	Name:	"Transparent"
+)
+
+(TClr.544
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.545
+)
+
+(NameDict.546
+)
+
+(Thresh.547
+)
+
+(GSet.548
+)
+
+(TxPosPly.549
+	HAlign:	3
+	VAlign:	3
+)
+
+(FTheme.550
+	Name:	"Cenblock"
+	Source:	551
+	Flags:	0x07
+	Legend:	576
+	Threshold:	589
+	View:	443
+	GSet:	590
+	LegEditScript:	"View.EditLegend"
+	TxPos:	591
+	SnapTolCursor:	1
+)
+
+(CovSrc.551
+	Name:	552
+	FClass:	554
+	FTab:	555
+)
+
+(SrcName.552
+	FileName:	553
+	Name:	"cenblock00"
+	SubName:	"polygon"
+	OwnerClass:	"CovSrc"
+)
+
+(FN.553
+	Path:	"d:/data/statewide/cenblock00"
+)
+
+(FClass.554
+	Type:	3
+	Feature:	"polygon"
+)
+
+(FTab.555
+	Name:	"cenblock00.pat"
+	BTab:	556
+	Fields:	574
+	Fields:	557
+	Fields:	558
+	Fields:	559
+	Fields:	560
+	Fields:	561
+	Fields:	562
+	Fields:	563
+	Fields:	564
+	Fields:	565
+	Fields:	566
+	Fields:	567
+	Fields:	568
+	Fields:	569
+	Fields:	570
+	Fields:	571
+	Fields:	572
+	SelBits:	575
+	FSrc:	551
+)
+
+(INFO.556
+	Name:	"cenblock00.pat"
+	Skip:	1
+	Fields:	557
+	Fields:	558
+	Fields:	559
+	Fields:	560
+	Fields:	561
+	Fields:	562
+	Fields:	563
+	Fields:	564
+	Fields:	565
+	Fields:	566
+	Fields:	567
+	Fields:	568
+	Fields:	569
+	Fields:	570
+	Fields:	571
+	Fields:	572
+	FileName:	573
+)
+
+(Field.557
+	Name:	"Area"
+	Btab:	556
+	Alias:	"Area"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.558
+	Name:	"Perimeter"
+	Btab:	556
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.559
+	Name:	"Cenblock00#"
+	Btab:	556
+	Alias:	"Cenblock00#"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.560
+	Name:	"Cenblock00-id"
+	Btab:	556
+	Alias:	"Cenblock00-id"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.561
+	Name:	"Fips_ctbl"
+	Btab:	556
+	Alias:	"Fips_ctbl"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.562
+	Name:	"Place"
+	Btab:	556
+	Alias:	"Place"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.563
+	Name:	"Pop100"
+	Btab:	556
+	Alias:	"Pop100"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.564
+	Name:	"Hu100"
+	Btab:	556
+	Alias:	"Hu100"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.565
+	Name:	"Pdensity"
+	Btab:	556
+	Alias:	"Pdensity"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.566
+	Name:	"Hdensity"
+	Btab:	556
+	Alias:	"Hdensity"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.567
+	Name:	"Arealand"
+	Btab:	556
+	Alias:	"Arealand"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.568
+	Name:	"Areawatr"
+	Btab:	556
+	Alias:	"Areawatr"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.569
+	Name:	"Cnty"
+	Btab:	556
+	Alias:	"Cnty"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(Field.570
+	Name:	"Tract"
+	Btab:	556
+	Alias:	"Tract"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(Field.571
+	Name:	"Block_group"
+	Btab:	556
+	Alias:	"Block_group"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(Field.572
+	Name:	"Block"
+	Btab:	556
+	Alias:	"Block"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Redefine:	1
+)
+
+(FN.573
+	Path:	"d:/data/statewide/info/cenblock00.pat"
+)
+
+(Field.574
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.575
+	NumBits:	533602
+
+)
+
+(Legend.576
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	577
+	Class:	582
+	StdDevs:	1.00000000000000
+	NullSym:	583
+	NullValues:	587
+	StatValues:	588
+	Precision:	-3
+)
+
+(SymList.577
+	Child:	578
+)
+
+(BShSym.578
+	Color:	579
+	Outline:	1
+	OutlineColor:	580
+	OutlineWidth:	0.10000000000000
+	BgColor:	581
+)
+
+(TClr.579
+	Red:	0x5581
+	Green:	0x5259
+	Blue:	0xf901
+)
+
+(TClr.580
+)
+
+(TClr.581
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.582
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.583
+	Color:	584
+	Outline:	1
+	OutlineColor:	585
+	OutlineWidth:	0.10000000000000
+	BgColor:	586
+)
+
+(TClr.584
+	Name:	"Transparent"
+)
+
+(TClr.585
+	Name:	"Transparent"
+)
+
+(TClr.586
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.587
+)
+
+(NameDict.588
+)
+
+(Thresh.589
+)
+
+(GSet.590
+)
+
+(TxPosPly.591
+	HAlign:	3
+	VAlign:	3
+)
+
+(LButn.592
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"View.New"
+)
+
+(LButn.593
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.594
+	HelpTopic:	"Print_button"
+	Update:	"Doc.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Doc.Action"
+)
+
+(FN.595
+	Path:	"$AVEXT/spatial.avx"
+)
+
+(NameDict.596
+)
+
+(NameDict.597
+	Obj:	598
+	Obj:	599
+	Obj:	604
+	Obj:	605
+)
+
+(AVDict.598
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.599
+	InternalName:	"Surface Support"
+	Key:	600
+	Key:	601
+	Value:	602
+	Value:	603
+)
+
+(AVStr.600
+	S:	"Loaded"
+)
+
+(AVStr.601
+	S:	"Version"
+)
+
+(Bool.602
+	Truth:	1
+)
+
+(Numb.603
+	N:	1000.00000000000000
+)
+
+(AVDict.604
+	InternalName:	"_Thor_"
+)
+
+(AVDict.605
+	InternalName:	"Spatial Analyst"
+	Key:	606
+	Key:	607
+	Value:	602
+	Value:	608
+)
+
+(AVStr.606
+	S:	"Loaded"
+)
+
+(AVStr.607
+	S:	"Version"
+)
+
+(Numb.608
+	N:	2000.00000000000000
+)
+
+(DocGUI.609
+	Name:	"View"
+	Type:	"View"
+	Modified:	1
+	Visible:	1
+	MenuBar:	610
+	ButnBar:	757
+	Popups:	801
+	ToolBar:	823
+	NewScript:	"View.New"
+	OpenScript:	"Doc.Open"
+	ActionScript:	"Doc.Action"
+	NewUpdateScript:	"Doc.NewUpdate"
+	OpenUpdateScript:	"Doc.OpenUpdate"
+	ActionUpdateScript:	"Doc.ActionUpdate"
+	Title:	"Views"
+	Icon:	902
+)
+
+(MenuBar.610
+	Child:	611
+	Child:	630
+	Child:	650
+	Child:	673
+	Child:	700
+	Child:	718
+	Child:	726
+	Child:	742
+	Child:	752
+)
+
+(PMenu.611
+	InternalName:	"File"
+	Child:	612
+	Child:	613
+	Child:	614
+	Child:	615
+	Child:	616
+	Child:	617
+	Child:	618
+	Child:	619
+	Child:	620
+	Child:	621
+	Child:	622
+	Child:	623
+	Child:	624
+	Child:	625
+	Child:	626
+	Child:	627
+	Child:	628
+	Child:	629
+	Label:	"&File"
+)
+
+(Choice.612
+	Help:	"Closes the active component"
+	HelpTopic:	"Close"
+	Label:	"&Close"
+	Click:	"Project.CloseDoc"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.613
+	Help:	"Closes all components"
+	HelpTopic:	"Close_All"
+	Label:	"Close &All"
+	Click:	"Project.CloseAll"
+	Shortcut:	"Keys.None"
+)
+
+(Space.614
+)
+
+(Choice.615
+	Help:	"Allows you to specify the current working directory"
+	HelpTopic:	"Set_Working_Directory"
+	Label:	"Set &Working Directory..."
+	Click:	"Project.SetProjectWorkDir"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.616
+	Help:	"Saves the current project"
+	HelpTopic:	"Save_Project"
+	Label:	"&Save Project"
+	Click:	"Project.Save"
+	Shortcut:	"Keys.Ctrl+S"
+)
+
+(Choice.617
+	Help:	"Saves the current project with a new name"
+	HelpTopic:	"Save_Project_As"
+	Label:	"Save Project As..."
+	Click:	"Project.SaveAs"
+	Shortcut:	"Keys.None"
+)
+
+(Space.618
+)
+
+(Choice.619
+	Help:	"Displays the Extensions dialog"
+	HelpTopic:	"Extensions"
+	Label:	"Extensions..."
+	Click:	"Appl.GetExtensionWin"
+	Shortcut:	"Keys.None"
+)
+
+(Space.620
+)
+
+(Choice.621
+	Help:	"Prints the view"
+	HelpTopic:	"Print"
+	Label:	"&Print..."
+	Click:	"View.Print"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.622
+	Help:	"Edits the printer and the printing options"
+	HelpTopic:	"Print_Setup"
+	Label:	"P&rint Setup..."
+	Click:	"Project.PrintSetup"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.623
+	Help:	"Exports the view"
+	HelpTopic:	"Export"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Export..."
+	Click:	"View.ExportDisp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.624
+)
+
+(Choice.625
+	Help:	"Displays the dialog box to delete, edit, and copy data sources"
+	HelpTopic:	"Manage_Sources"
+	Label:	"&Manage Data Sources..."
+	Click:	"View.ManageSources"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.626
+	InternalName:	"Surface"
+	Help:	"Imports files to data sources that can be used with ArcView"
+	HelpTopic:	"Import_Grids@surface.hlp"
+	Label:	"&Import Data Source..."
+	Click:	"Spatial.Import"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.627
+	InternalName:	"Surface"
+	Help:	"Exports data sources to files that can be used outside of ArcView"
+	HelpTopic:	"Export_Grids@surface.hlp"
+	Label:	"Export &Data Source..."
+	Click:	"Spatial.Export"
+	Shortcut:	"Keys.None"
+)
+
+(Space.628
+)
+
+(Choice.629
+	Help:	"Exits ArcView"
+	HelpTopic:	"Exit"
+	Label:	"E&xit"
+	Click:	"Project.Exit"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.630
+	InternalName:	"Edit"
+	Child:	631
+	Child:	632
+	Child:	633
+	Child:	634
+	Child:	635
+	Child:	636
+	Child:	637
+	Child:	638
+	Child:	639
+	Child:	640
+	Child:	641
+	Child:	642
+	Child:	643
+	Child:	644
+	Child:	645
+	Child:	646
+	Child:	647
+	Child:	648
+	Child:	649
+	Label:	"&Edit"
+)
+
+(Choice.631
+	Help:	"Cuts the active themes to the clipboard"
+	HelpTopic:	"Cut_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"Cut T&hemes"
+	Click:	"View.CutThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.632
+	Help:	"Copies the active themes to the clipboard"
+	HelpTopic:	"Copy_Themes"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Cop&y Themes"
+	Click:	"View.CopyThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.633
+	Help:	"Removes the active themes from the view"
+	HelpTopic:	"Delete_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"De&lete Themes"
+	Click:	"View.DeleteThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Space.634
+)
+
+(Choice.635
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"&Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.Ctrl+Z"
+)
+
+(Choice.636
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	HelpTopic:	"Redo_Feature_Edit_on_a_view"
+	Update:	"View.RedoEditUpdate"
+	Label:	"&Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.Ctrl+Y"
+)
+
+(Space.637
+)
+
+(Choice.638
+	Disabled:	1
+	Help:	"Cuts the selected graphics to the clipboard"
+	HelpTopic:	"Cut_Graphics"
+	Update:	"View.CutUpdate"
+	Label:	"Cu&t Graphics"
+	Click:	"View.CutGraphics"
+	Shortcut:	"Keys.Ctrl+X"
+)
+
+(Choice.639
+	Disabled:	1
+	Help:	"Copies the selected graphics to the clipboard"
+	HelpTopic:	"Copy_Graphics"
+	Update:	"View.CopyUpdate"
+	Label:	"&Copy Graphics"
+	Click:	"View.CopyGraphics"
+	Shortcut:	"Keys.Ctrl+C"
+)
+
+(Choice.640
+	Disabled:	1
+	Help:	"Removes the selected graphics from the view"
+	HelpTopic:	"Delete_Graphics"
+	Update:	"View.DeleteUpdate"
+	Label:	"&Delete Graphics"
+	Click:	"View.DeleteGraphics"
+	Shortcut:	"Keys.Del"
+)
+
+(Space.641
+)
+
+(Choice.642
+	Disabled:	1
+	Help:	"Combines the selected polygons"
+	HelpTopic:	"Combine_Graphics"
+	Update:	"View.CombineUpdate"
+	Label:	"Com&bine Graphics"
+	Click:	"View.CombineGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.643
+	Disabled:	1
+	Help:	"Unions the selected graphics to create a new graphic"
+	HelpTopic:	"Union_Graphics"
+	Update:	"View.UnionUpdate"
+	Label:	"U&nion Graphics"
+	Click:	"View.UnionGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.644
+	Disabled:	1
+	Help:	"Subtracts one selected polygon from the other selected polygon"
+	HelpTopic:	"Subtract_Graphics"
+	Update:	"View.SubtractUpdate"
+	Label:	"&Subtract Graphics"
+	Click:	"View.SubtractGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.645
+	Disabled:	1
+	Help:	"Creates a new polygon from the area  of overlap between the selected polygons"
+	HelpTopic:	"Intersect_Graphics"
+	Update:	"View.IntersectUpdate"
+	Label:	"&Intersect Graphics"
+	Click:	"View.IntersectGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.646
+)
+
+(Choice.647
+	Disabled:	1
+	Help:	"Inserts the contents of the clipboard"
+	HelpTopic:	"Paste"
+	Update:	"View.PasteUpdate"
+	Label:	"&Paste"
+	Click:	"View.Paste"
+	Shortcut:	"Keys.Ctrl+V"
+)
+
+(Space.648
+)
+
+(Choice.649
+	Disabled:	1
+	Help:	"Selects all graphics in the view"
+	HelpTopic:	"Select_All_Graphics"
+	Update:	"View.HasGraphicsUpdate"
+	Label:	"Select &All Graphics"
+	Click:	"Graphic.SelectAll"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.650
+	InternalName:	"View"
+	Child:	651
+	Child:	652
+	Child:	653
+	Child:	654
+	Child:	655
+	Child:	656
+	Child:	657
+	Child:	658
+	Child:	659
+	Child:	660
+	Child:	661
+	Child:	662
+	Child:	663
+	Child:	664
+	Child:	665
+	Child:	666
+	Child:	667
+	Child:	668
+	Child:	669
+	Child:	670
+	Child:	671
+	Child:	672
+	Label:	"&View"
+)
+
+(Choice.651
+	Help:	"Displays the dialog box to edit properties of the view"
+	HelpTopic:	"View_Properties"
+	Label:	"&Properties..."
+	Click:	"View.Properties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.652
+)
+
+(Choice.653
+	Help:	"Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Label:	"&Add Theme..."
+	Click:	"View.Add"
+	Shortcut:	"Keys.Ctrl+T"
+)
+
+(Choice.654
+	Disabled:	1
+	Help:	"Displays a dialog box to create a geocoded theme"
+	HelpTopic:	"Geocode_Addresses"
+	Update:	"View.GeocodeUpdate"
+	Label:	"&Geocode Addresses..."
+	Click:	"View.Geocode"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.655
+	Help:	"Displays a dialog box to create an XY or dynamic segmentation event-based theme "
+	HelpTopic:	"Add_Event_Theme"
+	Update:	"View.AddEventUpdate"
+	Label:	"Add &Event Theme..."
+	Click:	"View.AddEvent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.656
+	Help:	"Creates a new theme"
+	HelpTopic:	"New_Theme"
+	Label:	"&New Theme..."
+	Click:	"View.NewTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.657
+	Help:	"Makes all themes visible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Themes On"
+	Click:	"View.ThemesOn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.658
+	Help:	"Makes all themes invisible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"T&hemes Off"
+	Click:	"View.ThemesOff"
+	Shortcut:	"Keys.None"
+)
+
+(Space.659
+)
+
+(Choice.660
+	Help:	"Create a Layout from the View"
+	HelpTopic:	"Layout_menu_choice"
+	Update:	"View.HasThemesUpdate"
+	Label:	"La&yout..."
+	Click:	"View.Layout"
+	Shortcut:	"Keys.None"
+)
+
+(Space.661
+)
+
+(Choice.662
+	Help:	"Shows a dialog where you can change the style of the TOC"
+	HelpTopic:	"TOC_Defaults"
+	Update:	"TocDefs.ShowUpdate"
+	Label:	"TOC Style..."
+	Click:	"TocDefs.Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.663
+)
+
+(Choice.664
+	Help:	"Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Label:	"Full E&xtent"
+	Click:	"View.ZoomFullExtent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.665
+	Help:	"Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &In"
+	Click:	"View.ZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.666
+	Help:	"Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &Out"
+	Click:	"View.ZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.667
+	Help:	"Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Zoom To Themes"
+	Click:	"View.ZoomToThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.668
+	Help:	"Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom To &Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.669
+	Disabled:	1
+	Help:	"Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Label:	"Zoom Pre&vious"
+	Click:	"View.UndoZoom"
+	Shortcut:	"Keys.None"
+)
+
+(Space.670
+)
+
+(Choice.671
+	Help:	"Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.FindUpdate"
+	Label:	"&Find..."
+	Click:	"View.Find"
+	Shortcut:	"Keys.Ctrl+F"
+)
+
+(Choice.672
+	Disabled:	1
+	Help:	"Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Label:	"&Locate Address..."
+	Click:	"View.Locate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.673
+	InternalName:	"Theme"
+	Child:	674
+	Child:	675
+	Child:	676
+	Child:	677
+	Child:	678
+	Child:	679
+	Child:	680
+	Child:	681
+	Child:	682
+	Child:	683
+	Child:	684
+	Child:	685
+	Child:	686
+	Child:	687
+	Child:	688
+	Child:	689
+	Child:	690
+	Child:	691
+	Child:	692
+	Child:	693
+	Child:	694
+	Child:	695
+	Child:	696
+	Child:	697
+	Child:	698
+	Child:	699
+	Label:	"&Theme"
+)
+
+(Choice.674
+	Help:	"Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Properties..."
+	Click:	"View.ThemeProperties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.675
+)
+
+(Choice.676
+	Disabled:	1
+	Help:	"Starts or stops editing of shapefile"
+	HelpTopic:	"Start_Stop_Editing_in_a_view"
+	Update:	"View.ToggleEditingUpdate"
+	Label:	"Start &Editing"
+	Click:	"View.ToggleEditing"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.677
+	Disabled:	1
+	Help:	"Save edits to the source shapefile"
+	HelpTopic:	"Save_edits_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save Ed&its"
+	Click:	"View.SaveEdits"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.678
+	Disabled:	1
+	Help:	"Saves edits to a new shapefile"
+	HelpTopic:	"Save_edits_as_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save E&dits As..."
+	Click:	"View.SaveEditsAs"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.679
+	Help:	"Converts a theme to a shapefile"
+	HelpTopic:	"Convert_to_Shapefile"
+	Update:	"View.ExportUpdate"
+	Label:	"Convert to &Shapefile..."
+	Click:	"View.Export"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.680
+	InternalName:	"Surface"
+	Help:	"Converts themes to grid themes"
+	HelpTopic:	"Convert_to_Grid@surface.hlp"
+	Update:	"Spatial.ConvertToGridUpdate"
+	Label:	"Convert to &Grid..."
+	Click:	"Spatial.ConvertToGrid"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.681
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Saves the data source associated with a grid theme as a permanent data source"
+	HelpTopic:	"Save_Data_Set@surface.hlp"
+	Update:	"Spatial.SaveDataSetUpdate"
+	Label:	"Sa&ve Data Set..."
+	Click:	"Spatial.SaveDataSet"
+	Shortcut:	"Keys.None"
+)
+
+(Space.682
+)
+
+(Choice.683
+	Help:	"Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Edit &Legend..."
+	Click:	"View.EditLegendClick"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.684
+	Help:	"Shows or hides the active themes' legends"
+	HelpTopic:	"Hide_show_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Hide/Show Legend"
+	Click:	"View.ToggleLegend"
+	Shortcut:	"Keys.None"
+)
+
+(Space.685
+)
+
+(Choice.686
+	Disabled:	1
+	Help:	"Displays the Re-match dialog for re-matching addresses"
+	HelpTopic:	"Re_match_Addresses"
+	Update:	"View.EditMatchUpdate"
+	Label:	"&Re-match Addresses..."
+	Click:	"View.EditMatch"
+	Shortcut:	"Keys.None"
+)
+
+(Space.687
+)
+
+(Choice.688
+	Help:	"Labels features in active, visible themes"
+	HelpTopic:	"Auto_label"
+	Update:	"View.LabelThemesUpdate"
+	Label:	"&Auto-label..."
+	Click:	"View.LabelThemes"
+	Shortcut:	"Keys.Ctrl+L"
+)
+
+(Choice.689
+	Disabled:	1
+	Help:	"Removes any labels from active themes"
+	HelpTopic:	"Remove_Labels"
+	Update:	"View.RemoveThemeLabelsUpdate"
+	Label:	"Rem&ove Labels"
+	Click:	"View.RemoveThemeLabels"
+	Shortcut:	"Keys.Ctrl+R"
+)
+
+(Choice.690
+	Disabled:	1
+	Help:	"Removes the overlapping labels from active themes, if they are still green."
+	HelpTopic:	"Remove_Overlapping_Labels"
+	Update:	"View.RemoveOverlapThemeLabelsUpdate"
+	Label:	"Remove Overlappi&ng Labels"
+	Click:	"View.RemoveOverlapThemeLabels"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.691
+	Disabled:	1
+	Help:	"Converts selected overlapping labels to symbol of selected good label"
+	HelpTopic:	"Convert_Overlapping_Labels"
+	Update:	"View.ConvertOverlapLabelsUpdate"
+	Label:	"&Convert Overlapping Labels"
+	Click:	"View.ConvertOverlapLabels"
+	Shortcut:	"Keys.Ctrl+O"
+)
+
+(Space.692
+)
+
+(Choice.693
+	Help:	"Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"View.TabularThemesUpdate"
+	Label:	"&Table..."
+	Click:	"View.ShowTable"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.694
+	Help:	"Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"&Query..."
+	Click:	"View.Query"
+	Shortcut:	"Keys.Ctrl+Q"
+)
+
+(Choice.695
+	Help:	"Selects features in the active themes using another theme's features"
+	HelpTopic:	"Select_By_Theme"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Select &By Theme..."
+	Click:	"View.SelectByTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.696
+	Disabled:	1
+	Help:	"Creates buffers around features"
+	HelpTopic:	"Create_Buffer_Choice"
+	Update:	"WizardBuffer.OpenDialogUpdate"
+	Label:	"Create Buffers..."
+	Click:	"WizardBuffer.OpenDialog"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.697
+	Help:	"Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selected &Features"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(Space.698
+	InternalName:	"Spatial"
+)
+
+(Choice.699
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Brings up the map query builder or map calculator associated with a grid theme"
+	HelpTopic:	"Edit_Theme_Expression@spatial.hlp"
+	Update:	"Spatial.EditExpressionUpdate"
+	Label:	"Edit The&me Expression..."
+	Click:	"Spatial.EditExpression"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.700
+	InternalName:	"Analysis"
+	Child:	701
+	Child:	702
+	Child:	703
+	Child:	704
+	Child:	705
+	Child:	706
+	Child:	707
+	Child:	708
+	Child:	709
+	Child:	710
+	Child:	711
+	Child:	712
+	Child:	713
+	Child:	714
+	Child:	715
+	Child:	716
+	Child:	717
+	Label:	"&Analysis"
+)
+
+(Choice.701
+	InternalName:	"Spatial"
+	Help:	"Displays the dialog box to edit the analysis properties"
+	HelpTopic:	"Analysis_Properties@spatial.hlp"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Properties..."
+	Click:	"Spatial.AnalysisProperties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.702
+	InternalName:	"Spatial"
+)
+
+(Choice.703
+	InternalName:	"Spatial"
+	Help:	"Finds continuous distances from features in a theme"
+	HelpTopic:	"Find_Distance@spatial.hlp"
+	Update:	"Spatial.HasActiveIntegerGridOrFeatureThemeUpdate"
+	Label:	"Find &Distance"
+	Click:	"Spatial.Distance"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.704
+	InternalName:	"Spatial"
+	Help:	"Creates zones of proximity for features in a theme"
+	HelpTopic:	"Assign_Proximity@spatial.hlp"
+	Update:	"Spatial.HasActiveIntegerGridOrFeatureThemeUpdate"
+	Label:	"Assign Pro&ximity"
+	Click:	"Spatial.Proximity"
+	Shortcut:	"Keys.None"
+)
+
+(Space.705
+	InternalName:	"Spatial"
+)
+
+(Choice.706
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Creates a density surface from a point theme"
+	HelpTopic:	"Calculate_Density@spatial.hlp"
+	Update:	"Spatial.DensityUpdate"
+	Label:	"Calculate D&ensity..."
+	Click:	"Spatial.Density"
+	Shortcut:	"Keys.None"
+)
+
+(Space.707
+	InternalName:	"Spatial"
+)
+
+(Choice.708
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Calculates a statistic for multiple grid themes"
+	HelpTopic:	"Cell_Statistics@spatial.hlp"
+	Update:	"Spatial.CellStatisticsUpdate"
+	Label:	"&Cell Statistics..."
+	Click:	"Spatial.CellStatistics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.709
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Summarizes values in a grid theme within the zones of another theme"
+	HelpTopic:	"Summarize_Zones@spatial.hlp"
+	Update:	"Spatial.ZoneOperationUpdate"
+	Label:	"Summarize &Zones..."
+	Click:	"Spatial.SummarizeZones"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.710
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Creates a histogram distribution of a grid theme for each zone in another theme"
+	HelpTopic:	"Histogram_By_Zone@spatial.hlp"
+	Update:	"Spatial.ZoneOperationUpdate"
+	Label:	"&Histogram By Zone..."
+	Click:	"Spatial.ZoneHistogram"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.711
+	InternalName:	"Spatial"
+	Help:	"Tabulates the area of one theme within the zones of another theme"
+	HelpTopic:	"Tabulate_Areas@spatial.hlp"
+	Update:	"Spatial.TabulateAreasUpdate"
+	Label:	"&Tabulate Areas..."
+	Click:	"Spatial.TabulateAreas"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.712
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Performs spatial selection on multiple grid themes"
+	HelpTopic:	"Map_Query@spatial.hlp"
+	Update:	"Spatial.HasGridThemeUpdate"
+	Label:	"Map &Query..."
+	Click:	"Spatial.Query"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.713
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Displays the dialog box to create a grid theme with an algebraic statement"
+	HelpTopic:	"Map_Calculator@spatial.hlp"
+	Update:	"Spatial.HasGridThemeUpdate"
+	Label:	"&Map Calculator..."
+	Click:	"Spatial.Calculator"
+	Shortcut:	"Keys.None"
+)
+
+(Space.714
+	InternalName:	"Spatial"
+)
+
+(Choice.715
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Calculates a statistic on a grid or point theme over a specified neighborhood"
+	HelpTopic:	"Neighborhood_Statistics@spatial.hlp"
+	Update:	"Spatial.HasActiveGridOrNumericPointThemeUpdate"
+	Label:	"&Neighborhood Statistics..."
+	Click:	"Spatial.NbrStatistics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.716
+	InternalName:	"Spatial"
+)
+
+(Choice.717
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Reclassifies the values in a grid theme"
+	HelpTopic:	"Reclassify@spatial.hlp"
+	Update:	"Spatial.HasActiveGridThemeUpdate"
+	Label:	"&Reclassify..."
+	Click:	"Spatial.Reclassify"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.718
+	InternalName:	"Surface"
+	Child:	719
+	Child:	720
+	Child:	721
+	Child:	722
+	Child:	723
+	Child:	724
+	Child:	725
+	Label:	"&Surface"
+)
+
+(Choice.719
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Creates a continuous raster surface from a point theme"
+	HelpTopic:	"Interpolate_Surface@surface.hlp"
+	Update:	"Spatial.SurfaceUpdate"
+	Label:	"&Interpolate Grid..."
+	Click:	"Spatial.Surface"
+	Shortcut:	"Keys.None"
+)
+
+(Space.720
+	InternalName:	"Surface"
+)
+
+(Choice.721
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Creates contours from a surface or point theme"
+	HelpTopic:	"Create_Contours@surface.hlp"
+	Update:	"Surface.ContourUpdate"
+	Label:	"Create &Contours..."
+	Click:	"Spatial.Contour"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.722
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Derives slope from a surface"
+	HelpTopic:	"Derive_Slope@surface.hlp"
+	Update:	"Surface.HasActiveGridOrTinThemeUpdate"
+	Label:	"Derive &Slope"
+	Click:	"Spatial.Slope"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.723
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Derives aspect from a surface"
+	HelpTopic:	"Derive_Aspect@surface.hlp"
+	Update:	"Surface.HasActiveGridOrTinThemeUpdate"
+	Label:	"Derive &Aspect"
+	Click:	"Spatial.Aspect"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.724
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Computes hillshade values for a surface"
+	HelpTopic:	"Compute_Hillshade@surface.hlp"
+	Update:	"Surface.HasActiveGridOrTinThemeUpdate"
+	Label:	"Compute &Hillshade..."
+	Click:	"Spatial.Hillshade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.725
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Calculate the viewshed of selected points on a surface"
+	HelpTopic:	"Viewshed@surface.hlp"
+	Update:	"Surface.ViewshedUpdate"
+	Label:	"Calculate &Viewshed..."
+	Click:	"Surface.Viewshed"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.726
+	InternalName:	"Graphics"
+	Child:	727
+	Child:	728
+	Child:	729
+	Child:	730
+	Child:	731
+	Child:	732
+	Child:	733
+	Child:	734
+	Child:	735
+	Child:	736
+	Child:	737
+	Child:	738
+	Child:	739
+	Child:	740
+	Child:	741
+	Label:	"&Graphics"
+)
+
+(Choice.727
+	Disabled:	1
+	Help:	"Displays the property editor for the selected graphic"
+	HelpTopic:	"Graphic_Properties"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Properties..."
+	Click:	"Graphic.Edit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.728
+)
+
+(Choice.729
+	Help:	"Shows a dialog where you can set the default values for the label and text tools"
+	HelpTopic:	"Default_settings_for_text_and_label_tools"
+	Label:	"&Text and Label Defaults..."
+	Click:	"Graphic.Label Defaults Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.730
+)
+
+(Choice.731
+	Disabled:	1
+	Help:	"Displays a dialog box to adjust size and position of selected graphic"
+	HelpTopic:	"Size_and_Position"
+	Update:	"Graphic.SingleSelectionUpdate"
+	Label:	"&Size and Position..."
+	Click:	"Graphic.SizePos"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.732
+	Disabled:	1
+	Help:	"Aligns the selected graphics"
+	HelpTopic:	"Align"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Align..."
+	Click:	"Graphic.Align"
+	Shortcut:	"Keys.Ctrl+A"
+)
+
+(Space.733
+)
+
+(Choice.734
+	Disabled:	1
+	Help:	"Moves selected graphics in front of other graphics"
+	HelpTopic:	"Bring_to_Front_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Bring to &Front"
+	Click:	"Graphic.ToFront"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.735
+	Disabled:	1
+	Help:	"Moves selected graphics behind other graphics"
+	HelpTopic:	"Send_to_Back_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Send to &Back "
+	Click:	"Graphic.ToBack"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.736
+	Disabled:	1
+	Help:	"Groups selected graphics"
+	HelpTopic:	"Group_on_a_view"
+	Update:	"Graphic.GroupUpdate"
+	Label:	"&Group"
+	Click:	"Graphic.Group"
+	Shortcut:	"Keys.Ctrl+G"
+)
+
+(Choice.737
+	Disabled:	1
+	Help:	"Ungroups selected graphics"
+	HelpTopic:	"Ungroup_on_a_view"
+	Update:	"Graphic.UngroupUpdate"
+	Label:	"&Ungroup"
+	Click:	"Graphic.Ungroup"
+	Shortcut:	"Keys.Ctrl+U"
+)
+
+(Space.738
+)
+
+(Choice.739
+	Disabled:	1
+	Help:	"Associates selected graphics with active themes"
+	HelpTopic:	"Attach_Graphics"
+	Update:	"View.AddGraphicsUpdate"
+	Label:	"A&ttach Graphics"
+	Click:	"View.AddGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.740
+	Disabled:	1
+	Help:	"Removes association between graphics and active themes"
+	HelpTopic:	"Detach_Graphics"
+	Update:	"View.ClearGraphicsUpdate"
+	Label:	"&Detach Graphics"
+	Click:	"View.ClearGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.741
+)
+
+(PMenu.742
+	InternalName:	"Window"
+	Child:	743
+	Child:	744
+	Child:	745
+	Child:	746
+	Child:	747
+	Child:	748
+	Child:	750
+	Child:	751
+	Label:	"&Window"
+)
+
+(Choice.743
+	Help:	"Arranges windows as non-overlapping tiles"
+	HelpTopic:	"Tile"
+	Label:	"&Tile"
+	Click:	"Project.Tile"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.744
+	Help:	"Arranges windows"
+	HelpTopic:	"Cascade"
+	Label:	"&Cascade"
+	Click:	"Project.Cascade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.745
+	Help:	"Arranges iconified windows"
+	HelpTopic:	"Arrange_Icons"
+	Label:	"&Arrange Icons"
+	Click:	"Project.ArrangeIcons"
+	Shortcut:	"Keys.None"
+)
+
+(Space.746
+)
+
+(Choice.747
+	Help:	"Shows the symbol window"
+	HelpTopic:	"Show_Symbol_Window"
+	Label:	"Show Symbol Window..."
+	Click:	"Project.ShowHideSymWin"
+	Shortcut:	"Keys.Ctrl+P"
+)
+
+(Space.748
+	ObjectTag:	749
+	Update:	"WindowMenuUpdate"
+)
+
+(AVStr.749
+	S:	"swap.apr Wells"
+)
+
+(Choice.750
+	Help:	"Activates swap.apr"
+	Label:	"&1 swap.apr"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.751
+	Help:	"Activates Wells"
+	Label:	"&2 Wells"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.752
+	InternalName:	"Help"
+	Child:	753
+	Child:	754
+	Child:	755
+	Child:	756
+	Label:	"&Help"
+)
+
+(Choice.753
+	Help:	"Displays the dialog for browsing and searching ArcView's help system"
+	HelpTopic:	"Help_on_Help_Topics"
+	Label:	"Help &Topics..."
+	Click:	"Project.HelpTopics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.754
+	Help:	"Provides instructions for how to obtain help from ArcView"
+	HelpTopic:	"Help_on_How_to_Get_Help"
+	Label:	"&How to Get Help..."
+	Click:	"Project.HelpHelp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.755
+)
+
+(Choice.756
+	Help:	"Provides information about ArcView"
+	HelpTopic:	"About"
+	Label:	"&About ArcView..."
+	Click:	"Project.About"
+	Shortcut:	"Keys.None"
+)
+
+(ButnBar.757
+	Child:	758
+	Child:	760
+	Child:	761
+	Child:	763
+	Child:	764
+	Child:	766
+	Child:	768
+	Child:	770
+	Child:	771
+	Child:	773
+	Child:	775
+	Child:	777
+	Child:	778
+	Child:	780
+	Child:	782
+	Child:	784
+	Child:	786
+	Child:	788
+	Child:	790
+	Child:	791
+	Child:	793
+	Child:	795
+	Child:	796
+	Child:	798
+	Child:	799
+)
+
+(Butn.758
+	Help:	"Save Project//Saves the current project"
+	HelpTopic:	"Save_Project"
+	Icon:	759
+	Click:	"Project.Save"
+)
+
+(AVIcon.759
+	Name:	"Save"
+	Res:	"Icons.Save"
+
+)
+
+(Space.760
+)
+
+(Butn.761
+	Help:	"Add Theme//Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Icon:	762
+	Click:	"View.Add"
+)
+
+(AVIcon.762
+	Name:	"AddTheme"
+	Res:	"Icons.AddTheme"
+
+)
+
+(Space.763
+)
+
+(Butn.764
+	Help:	"Theme Properties//Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	765
+	Click:	"View.ThemeProperties"
+)
+
+(AVIcon.765
+	Name:	"Props"
+	Res:	"Icons.Props"
+
+)
+
+(Butn.766
+	Help:	"Edit Legend//Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	767
+	Click:	"View.EditLegendClick"
+)
+
+(AVIcon.767
+	Name:	"Legend"
+	Res:	"Icons.Legend"
+
+)
+
+(Butn.768
+	Help:	"Open Theme Table//Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"View.TabularThemesUpdate"
+	Icon:	769
+	Click:	"View.ShowTable"
+)
+
+(AVIcon.769
+	Name:	"Table"
+	Res:	"Icons.Table"
+
+)
+
+(Space.770
+)
+
+(Butn.771
+	Help:	"Find//Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.FindUpdate"
+	Icon:	772
+	Click:	"View.Find"
+)
+
+(AVIcon.772
+	Name:	"Find"
+	Res:	"Icons.Find"
+
+)
+
+(Butn.773
+	Disabled:	1
+	Help:	"Locate Address//Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Icon:	774
+	Click:	"View.Locate"
+)
+
+(AVIcon.774
+	Name:	"AddMatch"
+	Res:	"Icons.AddMatch"
+
+)
+
+(Butn.775
+	Help:	"Query Builder//Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	776
+	Click:	"View.Query"
+)
+
+(AVIcon.776
+	Name:	"QueryBuilder"
+	Res:	"Icons.QueryBuilder"
+
+)
+
+(Space.777
+)
+
+(Butn.778
+	Help:	"Zoom to Full Extent//Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Icon:	779
+	Click:	"View.ZoomFullExtent"
+)
+
+(AVIcon.779
+	Name:	"ZoomView"
+	Res:	"Icons.ZoomView"
+
+)
+
+(Butn.780
+	Help:	"Zoom to Active Theme(s)//Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	781
+	Click:	"View.ZoomToThemes"
+)
+
+(AVIcon.781
+	Name:	"ZoomTheme"
+	Res:	"Icons.ZoomTheme"
+
+)
+
+(Butn.782
+	Help:	"Zoom to Selected//Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	783
+	Click:	"View.ZoomToSelected"
+)
+
+(AVIcon.783
+	Name:	"ZoomToSelected"
+	Res:	"Icons.ZoomToSelected"
+
+)
+
+(Butn.784
+	Help:	"Zoom In//Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Icon:	785
+	Click:	"View.ZoomIn"
+)
+
+(AVIcon.785
+	Name:	"ZoomIn"
+	Res:	"Icons.ZoomIn"
+
+)
+
+(Butn.786
+	Help:	"Zoom Out//Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Icon:	787
+	Click:	"View.ZoomOut"
+)
+
+(AVIcon.787
+	Name:	"ZoomOut"
+	Res:	"Icons.ZoomOut"
+
+)
+
+(Butn.788
+	Disabled:	1
+	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Icon:	789
+	Click:	"View.UndoZoom"
+)
+
+(AVIcon.789
+	Name:	"ZoomPrevious"
+	Res:	"Icons.ZoomPrevious"
+
+)
+
+(Space.790
+)
+
+(Butn.791
+	Disabled:	1
+	Help:	"Select Features Using Graphic//Selects features in active themes using selected graphics"
+	HelpTopic:	"Select_Features_Using_Graphic"
+	Update:	"View.SpatialSelectUpdate"
+	Icon:	792
+	Click:	"View.SpatialSelect"
+)
+
+(AVIcon.792
+	Name:	"SpatialSelect"
+	Res:	"Icons.SpatialSelect"
+
+)
+
+(Butn.793
+	Help:	"Clear Selected Features//Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	794
+	Click:	"View.ClearSelect"
+)
+
+(AVIcon.794
+	Name:	"SelectNone"
+	Res:	"Icons.SelectNone"
+
+)
+
+(Space.795
+)
+
+(Butn.796
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Histogram//Displays the histogram distribution of the values in a grid theme"
+	HelpTopic:	"Histogram@spatial.hlp"
+	Update:	"Spatial.HistogramUpdate"
+	Icon:	797
+	Click:	"Spatial.Histogram"
+)
+
+(AVIcon.797
+	Name:	"Histogram"
+	Res:	"Icons.Histogram"
+
+)
+
+(Space.798
+	InternalName:	"Spatial"
+)
+
+(Butn.799
+	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
+	HelpTopic:	"Help_button"
+	Icon:	800
+	Click:	"Help.Tool"
+)
+
+(AVIcon.800
+	Name:	"HelpTool"
+	Res:	"Icons.HelpTool"
+
+)
+
+(PopupSet.801
+	Child:	802
+)
+
+(Popup.802
+	Child:	803
+	Child:	804
+	Child:	805
+	Child:	806
+	Child:	807
+	Child:	808
+	Child:	809
+	Child:	810
+	Child:	811
+	Child:	812
+	Child:	813
+	Child:	814
+	Child:	815
+	Child:	816
+	Child:	817
+	Child:	818
+	Child:	819
+	Child:	820
+	Child:	821
+	Child:	822
+	Label:	"Menu"
+)
+
+(Choice.803
+	Disabled:	1
+	Invisible:	1
+	Help:	"Deletes the last entered point on the line or polygon being drawn"
+	Update:	"View.DelLastPointUpdate"
+	Label:	"Delete Last Point"
+	Click:	"View.DeleteLastPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.804
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.805
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	Update:	"View.RedoEditUpdate"
+	Label:	"Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.806
+)
+
+(Choice.807
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns general snapping on"
+	Update:	"View.ToggleGeneralSnapUpdate"
+	Label:	"Enable General Snapping"
+	Click:	"View.ToggleGeneralSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.808
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns interactive snapping on"
+	Update:	"View.ToggleInteractiveSnapUpdate"
+	Label:	"Enable Interactive Snapping"
+	Click:	"View.ToggleInteractiveSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.809
+	Help:	"Turns snap tolerance cursor on"
+	Update:	"View.ToggleTolCursorUpdate"
+	Label:	"Show Snap Tolerance Cursor"
+	Click:	"View.ToggleTolCursor"
+	Shortcut:	"Keys.None"
+)
+
+(Space.810
+)
+
+(Choice.811
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest vertex within the user tolerance"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Vertex"
+	Click:	"View.SnapToVertex"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.812
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest line segment"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Boundary"
+	Click:	"View.SnapToBoundary"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.813
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest node common to two or more features"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Intersection"
+	Click:	"View.SnapToIntersection"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.814
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest endpoint of an existing line"
+	Update:	"View.SnapToEndPointUpdate"
+	Label:	"Snap to Endpoint"
+	Click:	"View.SnapToEndPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Space.815
+)
+
+(Choice.816
+	Disabled:	1
+	Help:	"Unselects the selected features in all active themes"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selection"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.817
+	Disabled:	1
+	Help:	"Zooms in at point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom In"
+	Click:	"View.PopupZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.818
+	Disabled:	1
+	Help:	"Zooms out from point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom Out"
+	Click:	"View.PopupZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.819
+	Disabled:	1
+	Help:	"Zooms to the extent of the selected features"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom to Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.820
+	Disabled:	1
+	Help:	"Centers display on point where you click to bring up popup"
+	Update:	"View.HasDataUpdate"
+	Label:	"Pan"
+	Click:	"View.PopupPan"
+	Shortcut:	"Keys.None"
+)
+
+(Space.821
+)
+
+(Choice.822
+	Disabled:	1
+	Help:	"Opens the shape properties window for editing vertex locations"
+	Update:	"ShapeWin.PopUp Update"
+	Label:	"Shape Properties"
+	Click:	"ShapeWin.PopUp Open"
+	Shortcut:	"Keys.None"
+)
+
+(ToolBar.823
+	Child:	824
+	Child:	826
+	Child:	828
+	Child:	830
+	Child:	832
+	Child:	834
+	Child:	836
+	Child:	838
+	Child:	840
+	Child:	842
+	Child:	844
+	Child:	863
+	Child:	876
+	Child:	895
+	Child:	900
+)
+
+(Tool.824
+	Help:	"Identify//Provides information about a feature"
+	HelpTopic:	"Identify_tool"
+	Update:	"View.IdentifyUpdate"
+	Icon:	825
+	Cursor:	"Cursors.ID"
+	Apply:	"View.Identify"
+)
+
+(AVIcon.825
+	Name:	"ID"
+	Res:	"Icons.ID"
+
+)
+
+(Tool.826
+	Help:	"Pointer//Selects, moves, and resizes graphics"
+	HelpTopic:	"Pointer_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	827
+	Cursor:	"Cursors.Select"
+	Apply:	"View.Select"
+	Click:	"View.SelectTool"
+)
+
+(AVIcon.827
+	Name:	"Select"
+	Res:	"Icons.Select"
+
+)
+
+(Tool.828
+	Disabled:	1
+	Help:	"Vertex Edit//Adds, moves, and deletes vertices of features and graphics"
+	HelpTopic:	"Vertex_Edit_tool"
+	Update:	"View.SelectToEditUpdate"
+	Icon:	829
+	Cursor:	"Cursors.SelectEdit"
+	Apply:	"View.SelectToEdit"
+	Click:	"View.SelectToEditTool"
+)
+
+(AVIcon.829
+	Name:	"SelectEdit"
+	Res:	"Icons.SelectEdit"
+
+)
+
+(Tool.830
+	Help:	"Select Feature//Selects features in the active themes by pointing or dragging"
+	HelpTopic:	"Select_Feature_tool"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	831
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SelectPoint"
+)
+
+(AVIcon.831
+	Name:	"FeatureSelect"
+	Res:	"Icons.FeatureSelect"
+
+)
+
+(Tool.832
+	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
+	HelpTopic:	"Zoom_In_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	833
+	Cursor:	"Cursors.ZoomIn"
+	Apply:	"View.ZoomInTool"
+)
+
+(AVIcon.833
+	Name:	"ZoomInTool"
+	Res:	"Icons.ZoomInTool"
+
+)
+
+(Tool.834
+	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
+	HelpTopic:	"Zoom_Out_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	835
+	Cursor:	"Cursors.ZoomOut"
+	Apply:	"View.ZoomOutTool"
+)
+
+(AVIcon.835
+	Name:	"ZoomOutTool"
+	Res:	"Icons.ZoomOutTool"
+
+)
+
+(Tool.836
+	Help:	"Pan//Drags the display in the direction you move the cursor"
+	HelpTopic:	"Pan_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	837
+	Cursor:	"Cursors.Pan"
+	Apply:	"View.Pan"
+)
+
+(AVIcon.837
+	Name:	"Pan"
+	Res:	"Icons.Pan"
+
+)
+
+(Tool.838
+	Help:	"Measure//Measures distance"
+	HelpTopic:	"Measure_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	839
+	Cursor:	"Cursors.Measure"
+	Apply:	"View.Measure"
+)
+
+(AVIcon.839
+	Name:	"Measure"
+	Res:	"Icons.Measure"
+
+)
+
+(Tool.840
+	Disabled:	1
+	Help:	"Hot Link//Follows a hot link in the active themes"
+	HelpTopic:	"Hot_Link_tool"
+	Update:	"View.HotLinkUpdate"
+	Icon:	841
+	Cursor:	"Cursors.Media"
+	Apply:	"View.HotLink"
+)
+
+(AVIcon.841
+	Name:	"Media"
+	Res:	"Icons.Media"
+
+)
+
+(Tool.842
+	Disabled:	1
+	Help:	"Area of Interest//Sets the view's Area Of Interest for library-based themes"
+	HelpTopic:	"Area_Of_Interest_tool"
+	Update:	"View.AOIToolUpdate"
+	Icon:	843
+	Cursor:	"Cursors.Default"
+	Apply:	"View.AOITool"
+)
+
+(AVIcon.843
+	Name:	"AOI"
+	Res:	"Icons.AOI"
+
+)
+
+(ToolMenu.844
+	Disabled:	1
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	845
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+	Child:	846
+	Child:	847
+	Child:	849
+	Child:	851
+	Child:	853
+	Child:	855
+	Child:	857
+	Child:	859
+	Child:	861
+)
+
+(AVIcon.845
+	Name:	"Tag"
+	Res:	"Icons.Tag"
+
+)
+
+(Tool.846
+	Disabled:	1
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	845
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+)
+
+(Tool.847
+	Disabled:	1
+	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	848
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.CalloutLabelTool"
+)
+
+(AVIcon.848
+	Name:	"CallOutLabel1"
+	Res:	"Icons.CallOutLabel1"
+
+)
+
+(Tool.849
+	Disabled:	1
+	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	850
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.BulletLeaderLabelTool"
+)
+
+(AVIcon.850
+	Name:	"CallOutLabel2"
+	Res:	"Icons.CallOutLabel2"
+
+)
+
+(Tool.851
+	Disabled:	1
+	Help:	"Banner Label//Click on a feature you want to label"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	852
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.ShadowBoxLabelTool"
+)
+
+(AVIcon.852
+	Name:	"CallOutLabel3"
+	Res:	"Icons.CallOutLabel3"
+
+)
+
+(Tool.853
+	Disabled:	1
+	Help:	"U.S. Interstate//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	854
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway1 Apply"
+)
+
+(AVIcon.854
+	Name:	"BW US Interstate"
+	Res:	"Icons.BW US Interstate"
+
+)
+
+(Tool.855
+	Disabled:	1
+	Help:	"U.S. Route//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	856
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway2 Apply"
+)
+
+(AVIcon.856
+	Name:	"USRoute"
+	Res:	"Icons.USRoute"
+
+)
+
+(Tool.857
+	Disabled:	1
+	Help:	"Generic State Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	858
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway3 Apply"
+)
+
+(AVIcon.858
+	Name:	"GenericStateHighway"
+	Res:	"Icons.GenericStateHighway"
+
+)
+
+(Tool.859
+	Disabled:	1
+	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	860
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway4 Apply"
+)
+
+(AVIcon.860
+	Name:	"GenericHighway1"
+	Res:	"Icons.GenericHighway1"
+
+)
+
+(Tool.861
+	Disabled:	1
+	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
+	Update:	"View.CalloutUpdate"
+	Icon:	862
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway5 Apply"
+)
+
+(AVIcon.862
+	Name:	"GenericHighway2"
+	Res:	"Icons.GenericHighway2"
+
+)
+
+(ToolMenu.863
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	864
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+	Child:	865
+	Child:	866
+	Child:	868
+	Child:	870
+	Child:	872
+	Child:	874
+)
+
+(AVIcon.864
+	Name:	"Text"
+	Res:	"Icons.Text"
+
+)
+
+(Tool.865
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	864
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+)
+
+(Tool.866
+	Help:	"Callout Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	867
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.CalloutTextTool"
+)
+
+(AVIcon.867
+	Name:	"CallOutText1"
+	Res:	"Icons.CallOutText1"
+
+)
+
+(Tool.868
+	Help:	"Bullet Leader Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	869
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.BulletLeaderTextTool"
+)
+
+(AVIcon.869
+	Name:	"CallOutText2"
+	Res:	"Icons.CallOutText2"
+
+)
+
+(Tool.870
+	Help:	"Banner Text//Click where you want your label to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	871
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.ShadowBoxTextTool"
+)
+
+(AVIcon.871
+	Name:	"CallOutText3"
+	Res:	"Icons.CallOutText3"
+
+)
+
+(Tool.872
+	Help:	"Drop-Shadow Text//Click where you want your text to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	873
+	Cursor:	"Cursors.Target"
+	Apply:	"View.CreateDropShadowText"
+)
+
+(AVIcon.873
+	Name:	"DropShadowText"
+	Res:	"Icons.DropShadowText"
+
+)
+
+(Tool.874
+	Help:	"Spline Text//Adds text that is aligned to a splined baseline"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	875
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.SplineText"
+)
+
+(AVIcon.875
+	Name:	"TextAligned"
+	Res:	"Icons.TextAligned"
+
+)
+
+(ToolMenu.876
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	877
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	878
+	Child:	879
+	Child:	881
+	Child:	883
+	Child:	885
+	Child:	887
+	Child:	889
+	Child:	891
+	Child:	893
+)
+
+(AVIcon.877
+	Name:	"Point"
+	Res:	"Icons.Point"
+
+)
+
+(Tool.878
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	877
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+)
+
+(Tool.879
+	Help:	"Draw Straight Line//Creates a line on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.GraphicToolUpdate"
+	Icon:	880
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.LineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.880
+	Name:	"SelectLine"
+	Res:	"Icons.SelectLine"
+
+)
+
+(Tool.881
+	Help:	"Draw Line//Creates a line with two or more points on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyLineToolUpdate"
+	Icon:	882
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyLineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.882
+	Name:	"Lines"
+	Res:	"Icons.Lines"
+
+)
+
+(Tool.883
+	Help:	"Draw Rectangle//Creates a rectangle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	884
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.RectTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.884
+	Name:	"Rect"
+	Res:	"Icons.Rect"
+
+)
+
+(Tool.885
+	Help:	"Draw Circle//Creates a circle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	886
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.CircleTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.886
+	Name:	"Disk"
+	Res:	"Icons.Disk"
+
+)
+
+(Tool.887
+	Help:	"Draw Polygon//Creates a polygon on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	888
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.888
+	Name:	"Poly"
+	Res:	"Icons.Poly"
+
+)
+
+(Tool.889
+	Disabled:	1
+	Help:	"Draw Line to Split Feature//Creates a line to split line features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitLineToolUpdate"
+	Icon:	890
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.890
+	Name:	"SplitLine"
+	Res:	"Icons.SplitLine"
+
+)
+
+(Tool.891
+	Disabled:	1
+	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitPolyToolUpdate"
+	Icon:	892
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.892
+	Name:	"SplitPoly"
+	Res:	"Icons.SplitPoly"
+
+)
+
+(Tool.893
+	Disabled:	1
+	Help:	"Draw Line to Append Polygon//Appends a new polygon adjacent to other polygons"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.AutoCompleteUpdate"
+	Icon:	894
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.AutoCompleteTool"
+)
+
+(AVIcon.894
+	Name:	"AutoComplete"
+	Res:	"Icons.AutoComplete"
+
+)
+
+(ToolMenu.895
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	896
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+	Child:	897
+	Child:	898
+)
+
+(AVIcon.896
+	Name:	"SnapTool"
+	Res:	"Icons.SnapTool"
+
+)
+
+(Tool.897
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	896
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+)
+
+(Tool.898
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the interactive snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.InteractiveSnapToolUpdate"
+	Icon:	899
+	Cursor:	"Cursors.Default"
+	Apply:	"View.InteractiveSnapTool"
+)
+
+(AVIcon.899
+	Name:	"SnapFeatureTool"
+	Res:	"Icons.SnapFeatureTool"
+
+)
+
+(Tool.900
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Contour//Creates a contour based on a point you define in a view"
+	HelpTopic:	"Contour_Tool@surface.hlp"
+	Update:	"Spatial.ContourToolUpdate"
+	Icon:	901
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"Spatial.ContourTool"
+)
+
+(AVIcon.901
+	Name:	"Contour"
+	Res:	"Icons.Contour"
+
+)
+
+(AVIcon.902
+	Name:	"Icon"
+	Res:	"View.Icon"
+
+)
+
+(FN.1469
+	Path:	"$HOME"
+)
+
+(TClr.1470
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.1471
+	S:	"View"
+)
+
+(AVStr.1472
+	S:	"Table"
+)
+
+(AVStr.1473
+	S:	"Chart"
+)
+
+(AVStr.1474
+	S:	"Layout"
+)
+
+(AVStr.1475
+	S:	"Script"
+)
+
+(AVStr.1476
+	S:	"Project"
+)
+
+(AVStr.1477
+	S:	"Appl"
+)
+

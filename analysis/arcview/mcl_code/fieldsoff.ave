@@ -1,0 +1,14 @@
+'av.fieldsoff
+'limit field viewing
+theVTab = self.Get(0)
+theFList = Self.Get(1)
+
+theFields = theVTab.GetFields
+for each f in theFields
+  f.SetVisible(false)
+end
+
+for each f in theFList
+  f.SetVisible(true)
+end
+theVTab.Refresh

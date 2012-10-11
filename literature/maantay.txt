@@ -1,0 +1,50 @@
+1. Current Contents
+
+AN  000175066600007
+DB  Current Contents
+DT  V110 SUPP2
+PA  Maantay, J
+RE  Maantay, J
+AA  CUNY Herbert H Lehman Coll Bronx, NY USA 10468 Maantay, J
+    maantay@lehman.cuny.edu Dept Geol & Geog, 250 Bedford Pk Blvd W REPRINT
+AA  CUNY Herbert H Lehman Coll Bronx, NY USA 10468 Dept Geol & Geog RESEARCH
+AT  Mapping environmental injustices: Pitfalls and potential of geographic
+    information systems in assessing environmental health and equity
+JT  ENVIRONMENTAL HEALTH PERSPECTIVES
+TA  ENVIRON HEALTH PERSPECT
+DP  2002
+IS  APR
+VO  V110
+NR  SUPP2
+PG  161-171
+VN  542WE
+LA  English
+SU  ENVG Environment/Ecology
+SU  PHML Pharmacology/Toxicology-LIFE
+
+LO  UCD   HealthSci W1 EN951 v.1, Apr.1972- (incomplete)
+LT  Environmental health perspectives : EHP.
+LO  UCD   Shields RA565 A1 E65 v.1, April 1972- (lacks v.107 no.7-12)
+LT  Environmental health perspectives : EHP.
+LO  All
+LO  LLNL
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  Non-UC
+LO  CRL
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

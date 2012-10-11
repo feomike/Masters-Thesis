@@ -1,0 +1,36 @@
+/*gethcondition.aml
+/*mike byrne
+/*july 25, 2002
+
+/*this aml creates the human condition coverage
+
+/*arguments
+/*  human condition coverages (cenbl, or cenbg)
+/*  input area (fips county code in california)
+
+&args hc_cov fips 
+&if [null %hc_cov%] | [null %fips%]  &then
+  &return &error USAGE: &r DoAnalysis <human condition coverage> <fips county code> 
+                                      
+&if ^ [exists %hc_cov% -cov] &then
+  &return &error coverage [translate %hc_cov%] does not exist, exiting ...
+
+&s cleanbol = .TRUE.
+&call cleanup
+
+reselect %hc_cov% %cov%%fips%
+  res cnty = [quote %fips%] /*and pop100 gt 0
+  [unquote '']
+  n
+  n
+
+&if %cleanbol% &then &call cleanup
+&return
+
+/******************************************************************
+/************Routine CleanUp
+&routine cleanup
+  &s cov = [entryname %hc_cov%]
+  &if [exists %cov%%fips% -cov] &then kill %cov%%fips% all
+  &s cleanbol = .FALSE.
+&return

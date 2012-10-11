@@ -1,0 +1,59 @@
+
+1. MELVYL Catalog
+
+AN  1783868
+DB  Melvyl Catalog
+DT  BOOK
+PA  Openshaw, Stan
+MT  The modifiable areal unit problem /
+PL  Norwick [Norfolk] :
+PU  Geo Books,
+DP  1983
+DE  40, [1] p. : ill. ; 21 cm.
+SE  Concepts and techniques in modern geography no. 38 0306-6142 ;
+VN  1783868
+IB  0860941345 (pbk.)
+NT  Cover title.
+NT  Bibliography: p. 39-[41]
+NT  English
+SU  Geography--Mathematics
+SU  Spatial analysis (Statistics)
+
+LO  UCD   Shields   GA1.C59 no.38 (circ status)
+LO  All
+LO  All UC
+LO  UCLA
+LO  UCSB
+LO  UCSC
+ZZ
+
+
+1. MELVYL Catalog
+
+AN  6339506
+DB  Melvyl Catalog
+DT  BOOK
+PA  Coshall, John
+MT  The application of nonparametric statistical tests in geography /
+PL  Norwich :
+PU  Order from Environmental Publications, University of East Anglia,
+DP  1989
+DE  128 p. : ill. ; 22 cm.
+SE  Concepts and techniques in modern geography no. 50 0306-6142 ;
+VN  6339506
+IB  1872464009
+NT  Cover title.
+NT  Includes bibliographical references (p. 71-75).
+NT  English
+SU  Geography--Statistical methods
+SU  Statistical hypothesis testing
+SU  Nonparametric statistics
+
+LO  UCD   Shields   GA1.C59 no.50 (circ status)
+LO  All
+LO  All UC
+LO  UCLA
+LO  UCSB
+LO  UCSC
+ZZ
+

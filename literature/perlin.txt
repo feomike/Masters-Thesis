@@ -1,0 +1,62 @@
+26. Current Contents
+
+AN  Z0Z-14
+DB  Current Contents
+DT  V29 N1
+PA  PERLIN SA
+PA  SETZER RW
+PA  CREASON J
+PA  SEXTON K
+RE  PERLIN SA
+AA  US EPA,OFF HLTH RES,8501,401 M ST SW WASHINGTON, DC USA 20460 Reprint
+AT  DISTRIBUTION OF INDUSTRIAL AIR EMISSIONS BY INCOME AND RACE IN THE UNITED
+    STATES - AN APPROACH USING THE TOXIC RELEASE INVENTORY
+JT  ENVIRONMENTAL SCIENCE & TECHNOLOGY
+TA  ENVIRON SCI TECHNOL
+DP  1995
+IS  JAN
+VO  V29
+NR  N1
+PG  69-80
+VN  PZ723
+LA  English
+SU  ENVG Environment/Ecology
+SU  ENCE Environmental/Civil-ENGI
+SU  EEEE Environmental Engineering/Energy
+
+LO  UCD Internet Electronic access v.30,1996-
+LT  Environmental science & technology
+LO  UCD   HealthSci W1 EN972 v.1, no.2-6, 8-12, 1967; v.2, no.1, 5, 7-8, 12, 
+          1968; v.4-10, 1970-76.
+LT  Environmental science & technology
+LO  UCD   Law Lib TD180 .E5 For holdings consult library
+LT  Environmental science & technology
+LO  UCD   PhySciEng TD180.A1E5 v.1,1967-
+LT  Environmental science & technology
+LO  CDL   Internet v.29(1995)-
+LT  Environmental science & technology
+LO  All
+LO  LBL
+LO  LLNL
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  NRLF
+LO  SRLF
+LO  Non-UC
+LO  CSL
+LO  CSU
+LO  GETTY
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

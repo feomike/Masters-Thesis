@@ -1,0 +1,41 @@
+1. Current Contents
+
+AN  000168555200005
+DB  Current Contents
+DT  V22 N1
+PA  Holifield, R
+RE  Holifield, R
+AA  Univ Georgia Athens, GA USA 30602 Holifield, R rholifi@arches.uga.edu Dept
+    Geog REPRINT
+AA  Univ Georgia Athens, GA USA 30602 Dept Geog RESEARCH
+AT  Defining environmental justice and environmental racism
+JT  URBAN GEOGRAPHY
+TA  URBAN GEOGR
+DP  2001
+IS  JAN-FEB
+VO  V22
+NR  N1
+PG  78-90
+VN  430CD
+LA  English
+SU  GEOS Environmental Studies/Geography/Development
+
+LO  UCD   Shields HT101 U71 v.1,Jan./Mar.1980-
+LT  Urban geography.
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSD
+LO  Non-UC
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Central Valley
+LO  Northern California
+ZZ

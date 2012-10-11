@@ -1,0 +1,24 @@
+1. Current Contents
+
+TI    A precise method for determining contoured surfaces
+AU    Philip, G M; Watson, D F
+AF    Earth Resour. Found., Sydney, N.W.S., Australia (AUS)
+AF    Spatial Sys., Australia (AUS)
+MT    Technical papers, 1982 APEA conference
+AU    Jamieson, P N (chairperson)
+CF    1982 APEA conference, Sydney, Australia, May 9-12, 1982
+SO    The APEA Journal, vol.22, Part 1, pp.205-212, 1982
+IS    0084-7534
+CD    APXJAB
+PB    Australian Petroleum Exploration Association, Sydney, N.S.W., Australia (AUS)
+LA    English
+FE    References: 17; illus. incl. sketch maps
+PY    1982
+PT    Serial; Conference document; Analytic
+CP    Australia (AUS)
+DE    algorithms; cartography; contour maps; data processing; engineering geology; graphic display; maps; plotting methods
+CL    14, Geologic maps
+CY    GeoRef, Copyright 2002, American Geological Institute.
+UD    1983
+AN    1983-003054
+F1    0084-7534,22,,205-212,1982

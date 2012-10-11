@@ -1,0 +1,17 @@
+'AV.FieldsOffMain
+'tunrs some fields on, and most off
+theTable = av.GetActiveDoc
+TheVTab = theTable.GetVTab
+
+theFList = {"DWS_PK","DWS_STATWA","DWS_STATW2","DWS_WELLDE","DWS_PUMPRA","DWS_SCREEN", "DWS_POROSI", "DWS_FLOW", "DWS_FLOWDI"}
+for each f in theVTab.GetFields
+  f.SetVisible(false)
+end
+
+for each f in theFList
+  if (theVTab.FindField(f) <> Nil) then
+    theVTab.FindField(f).SetVisible(true)
+  end
+end
+
+theVTab.Refresh

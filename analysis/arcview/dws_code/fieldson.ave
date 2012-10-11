@@ -1,0 +1,11 @@
+'av.AllFieldsOn
+'turn all fields on
+theTable = av.GetActiveDoc
+theVTab = theTable.GetVTab
+theFields = theVTab.GetFields
+
+for each f in theFields
+  f.SetVisible(true)
+end
+
+theVTab.Refresh

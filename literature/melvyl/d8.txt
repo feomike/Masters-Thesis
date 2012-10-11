@@ -1,0 +1,47 @@
+1. Current Contents
+
+AN  Z1ICWT
+DB  Current Contents
+DT  V77 N3
+PA  BULLARD RD
+RE  BULLARD RD
+AA  CLARK ATLANTA UNIV,ENVIRONM JUSTICE RES CTR,223 JAMES BRAWLES DR ATLANTA,
+    GA USA 30314 Reprint
+AT  ENVIRONMENTAL JUSTICE - ITS MORE THAN WASTE FACILITY SITING
+JT  SOCIAL SCIENCE QUARTERLY
+TA  SOC SCI QUART
+DP  1996
+IS  SEP
+VO  V77
+NR  N3
+PG  493-499
+VN  VV407
+LA  English
+SU  SALS Sociology/Anthropology
+
+LO  UCD   Shields H1 S7 v.//4-26, 1923-46//; v.28, 1947-
+LT  Social science quarterly
+LO  CDL   Internet v.82(2001)-
+LT  Social science quarterly
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSC
+LO  UCSD
+LO  UCSF
+LO  NRLF
+LO  SRLF
+LO  Non-UC
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

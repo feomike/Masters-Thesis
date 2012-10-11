@@ -1,0 +1,45 @@
+1. Current Contents
+
+AN  000168835400008
+DB  Current Contents
+DT  V92 N3
+PA  Pontius, FW
+AT  Environmental justice and drinking water regulations
+JT  JOURNAL AMERICAN WATER WORKS ASSOCIATION
+TA  J AMER WATER WORK ASSN
+DP  2000
+IS  MAR
+VO  V92
+NR  N3
+PG  14,16,18,20,104
+VN  434UZ
+LA  English
+SU  CIVE Civil Engineering
+
+LO  UCD   Law Lib TD201 .A512 For holdings consult library
+LT  Journal - American Water Works Association
+LO  UCD   PhySciEng TD201 A5 v.64,1972-
+LT  Journal / American Water Works Association.
+LO  UCD   Shields TD201 A5 v.31-41, 1939-1949 (incomplete); 43-63, 1951-1971.
+LT  Journal / American Water Works Association.
+LO  All
+LO  All UC
+LO  UCB
+LO  UCI
+LO  UCLA
+LO  UCR
+LO  UCSB
+LO  UCSD
+LO  NRLF
+LO  SRLF
+LO  Non-UC
+LO  CRL
+LO  CSL
+LO  CSU
+LO  STAN
+LO  Greater Bay Area
+LO  Greater Los Angeles
+LO  San Diego/Inland Empire
+LO  Northern California
+LO  Central Valley
+ZZ

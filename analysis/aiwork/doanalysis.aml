@@ -1,0 +1,89 @@
+/*doanalysis.aml
+/*mike byrne
+/*july 25, 2002
+
+/*this aml performs the analysis for the thesis
+
+/*arguments
+/*  human condition coverages (cenbl, or cenbg)
+/*  input area (fips county code in california)
+/*  human condition variable (item on cenbl, or cenbg)
+/*  environmental condition grid (output from earlier aml)
+
+&args hc_cov hc_item env_gr
+&if [null %hc_cov%] | [null %hc_item%] | [null %env_gr%] &then
+  &return &error USAGE: &r DoAnalysis <human condition coverage> <human condition item> <environmental condition grid>
+                                      
+&if ^ [exists %hc_cov% -cov] &then
+  &return &error coverage [translate %hc_cov%] does not exist, exiting ...
+&if ^ [iteminfo %hc_cov% -poly %hc_item% -exists] &then
+  &do
+   &type coverage [translate %env_gr%] does not have an item
+   &type named [translate %hc_item%], exiting ...
+   &return
+  &end
+
+&if ^ [exists %env_gr% -grid] &then
+  &return &error coverage [translate %env_gr%] does not exist, exiting ...
+
+&s cleanbol = .TRUE.
+&call cleanup
+
+&describe %env_gr%
+&s cellsize = %grd$dx%
+polygrid %hc_cov% ingr %hc_cov%#
+  1000  /*%cellsize%
+  y
+
+grid
+  outgr1 = int(zonalmean(ingr,%env_gr%))
+  outgr2 = combine(ingr,outgr1)
+  rename outgr1 zone%hc_item%
+quit
+
+pullitems outgr2.vat %hc_item%.dat
+  ingr
+  outgr1
+  end
+
+&data arc info
+  ARC
+    SEL [translate %hc_item%.DAT]
+    ALTER INGR
+      [translate %hc_cov%#],,,,,,,,,,,,,,,,,
+    ALTER OUTGR1
+      [translate %env_gr%],,,,,,,,,,,,,,,,,,
+  Q STOP
+&end
+  
+joinitem %hc_item%.dat %hc_cov%.pat %hc_item%.dat %hc_cov%# %env_gr% link
+pullitems %hc_item%.dat %hc_item%.dat
+  %hc_item% 
+  %env_gr%
+  end
+
+/*&call cleanup
+&return
+
+/******************************************************************
+/************Routine CleanUp
+&routine cleanup
+  &if %cleanbol% &then 
+    &do
+      &s dv = [delete %hc_item%.dat -info]
+      &if [exists zone%hc_item% -grid] &then kill zone%hc_item% all
+    &end
+  
+  &do i &list
+    &s dv = [delete %i% -file]
+  &end
+
+  &do i &list
+    &if [exists %i% -cov] &then kill %i% all
+  &end
+
+  &do i &list ingr outgr1 outgr2
+    &if [exists %i% -grid] &then kill %i% all
+  &end
+  &s cleanbol = .FALSE.
+&return

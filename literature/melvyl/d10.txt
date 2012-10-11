@@ -1,0 +1,50 @@
+1. MELVYL Catalog
+
+AN  10148108
+DB  Melvyl Catalog
+DT  BOOK
+CA  United States.
+CA  United States.
+MT  Environmental justice strategy : executive order 12898.
+OT  Executive order 12898
+OT  Environmental Protection Agency's environmental justice strategy
+PL  [Washington, D.C.] :
+PU  U.S. Environmental Protection Agency, Administration and Resources
+    Management, Office of Environmental Justice,
+DP  1995
+DE  25 p. ; 28 cm.
+RN  EPA/200-R-95-002
+VN  10148108
+NT  Cover title.
+NT  "April 1995."
+NT  "EPA/200-R-95-002."
+NT  English
+SU  Environmental policy--United States
+SU  Environmental monitoring--United States
+SU  Environmental protection--Health aspects--United States
+SU  Environmental protection--Social aspects--United States
+
+LO  UCD   Shields   DOC EP 1.2:J 87/4x Gov Info Staks (circ status)
+LO  UCB
+ZZ
+
+
+1. MELVYL Catalog
+
+AN  11046370
+DB  Melvyl Catalog
+DT  BOOK
+CA  United States.
+MT  Environmental justice initiatives 1993.
+PL  [Washington, D.C.] : Springfield, VA :
+PU  The Agency; Reproduced by National Technical Information Service,
+DP  1994
+DE  18 p.
+GD  EP 1.2:J 87/2x
+VN  11046370
+NT  "February 1994."
+NT  "PB95-182416."
+NT  English
+
+LO  UCD   Shields   DOC EP 1.2:J 87/2x Gov Info Staks (circ status)
+ZZ

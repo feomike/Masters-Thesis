@@ -1,0 +1,101 @@
+'AV.MCLHitsMain
+'mike byrne
+'jan 26, 2002
+'creates a mcl hit grid from
+'and odbc table already connected in the project
+
+'************************************************************
+'first get the source theme, and source theme FTab
+theView = av.GetProject.FindDoc("Main View")
+if (theView = Nil) then
+  msgbox.Error("No View named 'Main View', exiting","SWAP")
+  return Nil
+end
+
+theThemes = theView.GetThemes
+theTheme = msgbox.ListAsString(theThemes,"Choose the Source them","SWAP")
+if (theTheme = Nil) then
+  msgbox.Error("No Theme selected, exiting","SWAP")
+  return Nil
+end
+
+theFTab = theTheme.GetFTab
+theFTab.UnJoinAll
+theThemeField = theFTab.FindField("Con_Pkey")
+if (theThemeField = Nil) then
+  msgbox.Error("No field on the FTab named 'Con_pkey', exiting ...","SWAP")
+  return nil
+end
+av.Run("av.AddZField",{theFTab})
+theFlist = {theFTab.FindField("Shape"),theThemeField,theFTab.FindField("zfield")}
+av.Run("av.FieldsOff",{theFTab,theFlist})
+
+'************************************************************
+'second get the ODBC connected table
+theTabList = List.Make
+theDocs = av.GetProject.GetDocs
+for each d in theDocs
+  if (d.Is(table)) then
+    theTabList.Add(d)
+  end
+end
+
+theSourceTab = msgbox.ListAsString(theTabList,"Choose the ODBC Table","SWAP")
+if (theSourceTab = Nil) then
+  msgbox.Error("No Table Selected, exiting...","SWAP")
+  return Nil
+end
+
+theSourceVTab = theSourceTab.GetVTab
+theSourceVTab.UnJoinAll
+theSourceField = theSourceVTab.FindField("Con_pkey")
+if (theSourceField = Nil) then
+  msgbox.Error("No field on the SourceTab named 'Con_pkey', exiting ...","SWAP")
+  return nil
+end
+
+'************************************************************
+'join tables 
+theFTab.Join(theThemeField, theSourceVTab, theSourceField)
+
+'************************************************************
+'calculate ZField
+theBit = theFTab.GetSelection
+theBit = theBit.ClearAll
+theBit = theFTab.GetSelection
+theZField = theFTab.FindField("ZField")
+theFromField = theFTab.FindField("Total of Overlimit") 
+theFTab.SetEditable(true)
+theFTab.Calculate("0",theZField)
+for each r in theFTab
+  theVal = theFTab.ReturnValue(theFromField,r)
+  if (theVal > 0) then
+    theFTab.SetValue(theZField,r,theVal)
+  end
+end
+theFTab.SetEditable(false)
+theFTab.Refresh
+
+'************************************************************
+'set the query set for the interpolation = all points inside the display
+'theQuery = "[Total of Overlimit] > 0"
+'theBit = theFTab.GetSelection
+'theFTab.Query(theQuery,theBit,#VTAB_SELTYPE_NEW)
+'theFTab.Refresh
+
+theRect = theView.GetDisplay.ReturnExtent
+theTheme.SelectByRect(theRect,#VTAB_SELTYPE_NEW)
+
+'************************************************************
+'interpolate grid
+'MakeIDW(aPower,aRadius,aBarier) where aPower = 2 is default,Nil radius = 12, and Nill barier
+theInterp = Interp.MakeIDW(2,Nil,Nil)
+theGList = {300,theRect}
+theGrid = theFTab.Interpolate(Prj.MakeNull,theZField,theInterp,theGList)
+theGTheme = GTheme.Make(theGrid)
+
+theView.AddTheme(theGTheme)
+
+theView.Invalidate
+
+
