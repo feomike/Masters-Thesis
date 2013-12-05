@@ -1,7 +1,7 @@
 Masters-Thesis
 ==============
 
-UC Davis Masters in Geography Thesis, 2003  - test
+UC Davis Masters in Geography Thesis, 2003
 Michael Byrne
 Repository Created October 2012
 
